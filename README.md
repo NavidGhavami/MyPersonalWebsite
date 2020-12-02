@@ -1,2 +1,2 @@
 # MyPersonalWebsite
-This Is Navid Ghavami ' s Persona lWebsite
+This Is Navid Ghavami ' s Personal Website
