@@ -1,0 +1,44 @@
+﻿@model IEnumerable<PriceTable>
+
+<div class="content pricing">
+    <div class="row">
+        <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+            <!-- title -->
+            <div class="title"><span>پلن های</span> طراحی وب سایت</div>
+
+        </div>
+    </div>
+
+    <!-- pricing items -->
+    <div class="row pricing-items">
+
+        @foreach (var item in Model)
+        {
+            <!-- pricing item -->
+            <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+                <div class="pricing-item card-box">
+                    <div class="icon">
+                        <i class="la la-rocket"></i>
+                    </div>
+                    <div class="name">@item.PriceTableTitle</div>
+                    <div class="amount">
+                        <span class="dollar">میلیون</span> <span class="number">@item.Price</span> <span class="period">تومان</span>
+                    </div>
+                    <div class="feature-list">
+                        <ul>
+                            <li>@item.PriceTableDescription</li>
+                        </ul>
+                    </div>
+                    <div class="lnks">
+                        <a href="#" class="lnk">خرید و  <span>مشاوره</span></a>
+                    </div>
+                </div>
+            </div>
+        }
+
+       
+
+    </div>
+
+</div>

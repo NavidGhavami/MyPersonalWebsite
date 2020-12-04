@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Service>
+
+<div class="content services">
+    <div class="row">
+        <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+            <!-- title -->
+            <div class="title"><span>خدمات</span> من</div>
+
+        </div>
+    </div>
+
+    <!-- service items -->
+    <div class="row service-items">
+
+        @foreach (var item in Model)
+        {
+            <!-- service item -->
+            <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+                <div class="service-item card-box">
+                    <div class="icon">
+                       <i class="la la-thumb-tack"></i>
+                    </div>
+                    <div class="name">@item.ServiceTitle</div>
+                    <p>
+                        @item.ServiceDescription.
+                    </p>
+                </div>
+            </div>
+        }
+
+   
+
+    </div>
+
+</div>
+
+

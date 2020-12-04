@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Ability>
+
+<div class="content fuct">
+    <div class="row">
+        <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+            <!-- title -->
+            <div class="title"><span>مهارت</span> پروژه</div>
+
+        </div>
+    </div>
+
+    <!-- fuct items -->
+    <div class="row fuct-items">
+
+        @foreach (var item in Model)
+        {
+            <!-- fuct item --> 
+            <div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+                <div class="fuct-item card-box">
+                    <div class="icon">
+                        <i class="la la-lightbulb-o"></i>
+                    </div>
+                    <div class="name">@item.AbilityTitle</div>
+                </div>
+            </div>
+        }
+
+
+
+    </div>
+
+</div>
