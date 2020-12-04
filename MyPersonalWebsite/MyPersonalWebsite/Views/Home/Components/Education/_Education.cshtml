@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Education>
+
+
+
+              <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+                        <!-- title -->
+                        <div class="title"><span>تجربیات</span> تحصیلی</div>
+
+                        <!-- resume items -->
+                        <div class="resume-items card-box">
+
+                            @foreach (var item in Model)
+                            {
+                                <!-- resume item -->
+                                <div class="resume-item">
+                                    <div class="name">@item.EdTitle</div>
+                                    <div class="date">@item.EdYear</div>
+                                    <p> @item.EdDescription </p>
+                                </div>
+                            }
+
+                            
+
+                        </div>
+                    </div>
+ 
+

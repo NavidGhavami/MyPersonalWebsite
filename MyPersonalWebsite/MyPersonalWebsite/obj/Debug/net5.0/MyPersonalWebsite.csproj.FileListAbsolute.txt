@@ -119,3 +119,8 @@ F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonal
 F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\PriceTable\_PriceTable.cshtml.g.cs
 F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\Ability\_Ability.cshtml.g.cs
 F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\Client\_Client.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\ExperienceAndSkills.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\Experience\_Experience.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\Education\_Education.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\WorkSkills\_WorkSkills.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\OveralSkills\_OveralSkills.cshtml.g.cs

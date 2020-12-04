@@ -1,0 +1,27 @@
+﻿@model IEnumerable<WorkSkills>
+
+
+<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+    <!-- title -->
+    <div class="title"><span>مهارت های</span> برنامه نویسی</div>
+
+    <!-- skills -->
+    <div class="skills-list card-box">
+        <ul>
+           @foreach (var item in Model)
+           {
+               <li>
+                   <div class="name"> @item.SkillsName    |    @item.SkillPercentage%</div>
+                   <div class="">
+                       <progress style="width: 100%; " max="100" value="@item.SkillPercentage" title="@item.SkillPercentage%"></progress>
+                   </div>
+               </li>
+           }
+        </ul>
+    </div>
+
+</div>
+
+
+

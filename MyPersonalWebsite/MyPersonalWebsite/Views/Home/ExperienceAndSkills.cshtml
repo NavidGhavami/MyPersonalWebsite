@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "مهارت های من";
+}
+
+<div class="row card-container">
+
+        <!--
+        Card Wrap
+        -->
+        <div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+            <!-- Resume Image -->
+            <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6">
+
+                <img class="full-max-width" src="~/images/Navid.jpg"/>
+
+            </div>
+
+            <!--
+            Inner Top
+            -->
+            <div class="content inner-top">
+                <div class="row">
+                    <div class=" col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+                        <div class="title-bg">تجربه و مهارت</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            Resume
+            -->
+        <div class="content resume">
+            <div class="row">
+            @await Component.InvokeAsync("Experience")
+            @await Component.InvokeAsync("Education")
+               </div>
+            </div>
+            <!--
+            Skills
+            -->
+            <div class="content skills">
+                <div class="row">
+                    @await Component.InvokeAsync("WorkSkills")
+                    @await Component.InvokeAsync("OveralSkills")
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
