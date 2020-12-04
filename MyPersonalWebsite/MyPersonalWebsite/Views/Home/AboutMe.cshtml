@@ -1,4 +1,5 @@
-﻿
+﻿@using System.Collections
+
 @{
     ViewData["Title"] = "درباره من";
 }
@@ -12,45 +13,14 @@ Card Wrap
 
 <!-- About Image -->
 <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6">
-    <img style="width: 100%; height: 100%" src="~/images/profile.jpg"/>
+    <img style="width: 100%; height: 100%" src="~/images/Navid.jpg"/>
 </div>
 
 <!--
 Inner Top
 -->
 
-<div class="content inner-top">
-    <div class="row">
-        <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
-            <div class="title-bg">درباره من</div>
-            <div class="text">
-                <p>
-                    <strong>وب سایت شخصی </strong> دانیال خانی آبادی<br/>
-                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم <br/>
-                    از صنعت چاپ و با استفاده از طراحان گرافیک است
-                    <strong>
-                        html css <br/>
-                        wordpress php jquery bootstrap
-                    </strong>
-                </p>
-            </div>
-            <div class="circle-bts">
-                <a href="#">
-                    <span><i class="icon la la-download"></i>دانلود رزومه من</span>
-                </a>
-                <a href="#">
-                    <i class="icon la la-github"></i>
-                </a>
-                <a href="#">
-                    <i class="icon la la-stack-overflow"></i>
-                </a>
-                <a href="#">
-                    <i class="icon la la-skype"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+@await Component.InvokeAsync("InnerTop")
 
 <!--
 Services

@@ -5,10 +5,18 @@ using System.Threading.Tasks;
 
 namespace MyPersonalWebsite.Models
 {
-    public class AboutMe
+    public class InnerTop
     {
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string OwnerName { get; set; }
+        public string OwnerDescription { get; set; }
+        public string OwnerDescription2 { get; set; }
+
+        public InnerTop(string ownerName, string ownerDescription, string ownerDescription2)
+        {
+            OwnerName = ownerName;
+            OwnerDescription = ownerDescription;
+            OwnerDescription2 = ownerDescription2;
+        }
     }
 
     public class Service
