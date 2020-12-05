@@ -1,0 +1,160 @@
+﻿@model Articles
+@{
+    ViewData["Title"] = "جزییات مقاله";
+}
+<div class="row card-container">
+						
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar="init"><div class="simplebar-track vertical" style="visibility: visible;"><div class="simplebar-scrollbar" style="visibility: visible; top: 0px; height: 339px;"></div></div><div class="simplebar-track horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar"></div></div><div class="simplebar-scroll-content" style="padding-left: 17px; margin-bottom: -34px;"><div class="simplebar-content" style="padding-bottom: 17px; margin-left: -17px;">
+						
+						<!-- Blog Image -->
+                        <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6">
+                            <img class="full-max-width" src="~/images/blog/@Model.ArticleImage"/>
+                        </div>
+						
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">جزییات</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Blog Single
+						-->
+						<div class="content blog-single">
+
+							<!-- content -->
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="post-box card-box">
+
+										<!-- blog detail -->
+										<h1>@Model.ArticleTitle</h1>
+										<div class="blog-detail">انتشار :  @Model.CreateDate</div> 
+
+										<!-- blog content -->
+                                        <div class="blog-content">
+											
+											@Model.ArticleDescription
+
+                                        </div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title"><span>آخرین</span> دیدگاه ها</div>
+
+								</div>
+							</div>
+
+						@*	<!-- comments -->
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="post-box card-box comments">
+
+										<!-- comments items -->
+										<ul class="post-comments">
+
+											<!-- comment item -->
+											<li>
+												<img src="images/man1.jpg" alt="">
+												<div class="comment-info">
+													<div class="name">
+													  <h6>احمد امینی <span>یک ساعت پیش</span></h6>
+													  <a href="#">الرد</a>
+													</div>
+													<p> شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد. </p>
+												</div>
+											</li>
+
+											<!-- comment item -->
+											<li>
+												<img src="images/man1.jpg" alt="">
+												<div class="comment-info">
+													<div class="name">
+													  <h6>حامد نصیری<span>دو ساعت پیش</span></h6>
+													  <a href="#">الرد</a>
+													</div>
+													<p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+												</div>
+											</li>
+
+											<!-- comment item -->
+											<li>
+												<img src="images/man1.jpg" alt="">
+												<div class="comment-info">
+													<div class="name">
+													  <h6>امید حاجیان <span>هفت ساعت پیش</span></h6>
+													  <a href="#">الرد</a>
+													</div>
+													<p> با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی </p>
+												</div>
+											</li>
+
+										</ul>
+
+									</div>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title"><span>ثبت</span> دیدگاه شما</div>
+
+								</div>
+							</div>
+
+							<!-- comments -->
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="post-box card-box comments-form">
+
+										<!-- comment form -->
+										<form id="cform" method="post" novalidate="novalidate">
+											<div class="row">
+												<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+													<div class="group-val">
+														<input type="text" name="name" placeholder="نام و نام خانوادگی">
+													</div>
+												</div>
+												<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+													<div class="group-val">
+														<textarea name="message" placeholder="متن دیدگاه"></textarea>
+													</div>
+												</div>
+											</div>
+											<div class="align-left">
+												<a href="#" class="button" onclick="$('#cform').submit(); return false;">
+													<span class="text">ارسال دیدگاه</span>
+													<span class="arrow"></span>
+												</a>
+											</div>
+										</form>
+										<div class="alert-success">
+											<p>دیدگاه شما با موفقیت ثبت شد</p>
+										</div>
+
+									</div>
+								</div>
+							</div>*@
+
+						</div>
+						
+
+					</div></div></div>
+						
+				</div>

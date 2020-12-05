@@ -21,7 +21,7 @@
             <div class="content inner-top">
                 <div class="row">
                     <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
-                        <div class="title-bg">وبلاگ خبری</div>
+                        <div class="title-bg">مقالات</div>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                     <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
 
                         <!-- title -->
-                        <div class="title"><span>آخرین اخبار</span> وبلاگ من</div>
+                        <div class="title"><span>آخرین مقالات</span> من</div>
 
                     </div>
                 </div>
@@ -42,62 +42,9 @@
                 <!-- blog items -->
                 <div class="row">
 
-                    <!-- blog item -->
-                    <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
-                        <div class="box-item card-box">
-                            <div class="image">
-                                <a href="blog-post.html">
-                                    <img src="~/images/blog/blog1.jpg">
-                                    <span class="info">
-                                        <span class="icon la la-newspaper-o"></span>
-                                    </span>
-                                    <span class="date"><strong>20</strong>مرداد</span>
-                                </a>
-                            </div>
-                            <div class="desc">
-                                <a class="name">طراحی و تولید ساختار گرافیکی اختصاصی </a>
-                                <div class="category">طراحی وب سایت</div>
-                            </div>
-                        </div>
-                    </div>
+                    @await Component.InvokeAsync("Article")
 
-                    <!-- blog item -->
-                    <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
-                        <div class="box-item card-box">
-                            <div class="image">
-                                <a href="blog-post.html">
-                                    <img src="~/images/blog/blog2.jpg">
-                                    <span class="info">
-                                        <span class="icon la la-newspaper-o"></span>
-                                    </span>
-                                    <span class="date"><strong>19</strong>مرداد</span>
-                                </a>
-                            </div>
-                            <div class="desc">
-                                <a href="blog-post.html" class="name">نصب سیستم مدیریت محتوای کامل</a>
-                                <div class="category">برنامه نویسی</div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- blog item -->
-                    <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
-                        <div class="box-item card-box">
-                            <div class="image">
-                                <a href="blog-post.html">
-                                    <img src="~/images/blog/blog3.jpg" alt=""/>
-                                    <span class="info">
-                                        <span class="icon la la-newspaper-o"></span>
-                                    </span>
-                                    <span class="date"><strong>20</strong>تیر</span>
-                                </a>
-                            </div>
-                            <div class="desc">
-                                <a href="blog-post.html" class="name">نصب سیستم فروشگاهی یا آگهی</a>
-                                <div class="category">مدیریت پروژه</div>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
 

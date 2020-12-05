@@ -33,6 +33,14 @@ namespace MyPersonalWebsite.Controllers
         {
             return View();
         }
+        public IActionResult ArticlesDetail()
+        {
+            //var detail = new Articles()
+            //{
+
+            //};
+            return View();
+        }
         public IActionResult ContactMe()
         {
             return View();

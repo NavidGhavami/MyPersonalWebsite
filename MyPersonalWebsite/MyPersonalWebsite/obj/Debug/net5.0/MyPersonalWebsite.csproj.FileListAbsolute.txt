@@ -127,3 +127,7 @@ F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonal
 F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Projects.cshtml.g.cs
 F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Articles.cshtml.g.cs
 F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\ContactMe.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\Project\_Project.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\Article\_Article.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\ArticlesDetail.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Components\ContactMe\_ContactMe.cshtml.g.cs
