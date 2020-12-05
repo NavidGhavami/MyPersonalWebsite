@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyPersonalWebsite.Models;
 using System.Diagnostics;
+using System.Net.Mime;
+using System.Threading;
 
 namespace MyPersonalWebsite.Controllers
 {
@@ -44,6 +46,19 @@ namespace MyPersonalWebsite.Controllers
         public IActionResult ContactMe()
         {
             return View();
+        }
+
+        public FileResult Resume()
+        {
+            var filebyte = System.IO.File.ReadAllBytes("wwwroot/images/CVFile/Resume.jpg");
+            const string filename = "NavidGhavami_Resume.jpg";
+            return File(filebyte, MediaTypeNames.Image.Jpeg, filename);
+        }
+        public FileResult RecommandationLetter()
+        {
+            var filebyte = System.IO.File.ReadAllBytes("wwwroot/images/CVFile/Letter.jpg");
+            const string filename = "NavidGhavami_RecommandationLetter.jpg";
+            return File(filebyte, MediaTypeNames.Image.Jpeg, filename);
         }
 
 
