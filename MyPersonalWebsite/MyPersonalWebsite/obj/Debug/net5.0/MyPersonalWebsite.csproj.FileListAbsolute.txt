@@ -130,3 +130,4 @@ F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonal
 F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\ExperienceAndSkills.cshtml.g.cs
 F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\Razor\Views\Home\Projects.cshtml.g.cs
+F:\Programming\Codes and projects\MyPersonalWebsite\MyPersonalWebsite\MyPersonalWebsite\obj\Debug\net5.0\MyPersonalWebsite.csprojAssemblyReference.cache

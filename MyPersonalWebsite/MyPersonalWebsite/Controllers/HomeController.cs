@@ -48,18 +48,34 @@ namespace MyPersonalWebsite.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult ContactMe(ContactMe.ContactForm contact)
+        {
+            if (!ModelState.IsValid)
+            {
+                ViewBag.error = "اطلاعات وارد شده صحیح نمی باشد. لطفا دوباره تلاش کنید.";
+                return View(contact);
+            }
+
+            ViewBag.success = "پیغام شما با موفقیت ارسال شد. با تشکر از شما.";
+            ModelState.Clear();
+            return View();
+        }
+
         public FileResult Resume()
         {
             var filebyte = System.IO.File.ReadAllBytes("wwwroot/images/CVFile/Resume.jpg");
-            const string filename = "NavidGhavami_Resume.jpg";
+            const string filename = "Navid.Ghavami_Resume.jpg";
             return File(filebyte, MediaTypeNames.Image.Jpeg, filename);
         }
-        public FileResult RecommandationLetter()
+        public FileResult RecommendationLetter()
         {
             var filebyte = System.IO.File.ReadAllBytes("wwwroot/images/CVFile/Letter.jpg");
-            const string filename = "NavidGhavami_RecommandationLetter.jpg";
+            const string filename = "Navid.Ghavami_Recommandation Letter.jpg";
             return File(filebyte, MediaTypeNames.Image.Jpeg, filename);
         }
+
+      
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

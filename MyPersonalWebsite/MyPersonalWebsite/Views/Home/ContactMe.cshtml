@@ -1,4 +1,4 @@
-﻿
+﻿@model ContactMe.ContactForm
 @{
     ViewData["Title"] = "تماس با من";
 }
@@ -34,7 +34,24 @@
             <div class="content contacts-form">
                 <div class="row">
                     <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+                        @if (!string.IsNullOrEmpty(ViewBag.success))
+                        {
+                            <div class="alert-danger">
+                                <p>
+                                    @ViewBag.success
+                                </p>
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(ViewBag.error))
+                        {
+                            <div class="alert-danger">
+                                <p>
+                                    @ViewBag.error
+                                </p>
+                            </div>
+                        }
 
+                        
                         <!-- title -->
                         <div class="title"><span>تماس</span> بامن</div>
 
@@ -45,21 +62,24 @@
 
                         <!-- form -->
                         <div class="contact_form card-box">
-                            <form id="cform" method="post">
+                            <form id="cform" method="post" asp-controller="Home" asp-action="ContactMe">
                                 <div class="row">
                                     <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
                                         <div class="group-val">
-                                            <input type="text" name="name" placeholder="نام و نام خانوادگی"/>
+                                            <input type="text" asp- asp-for="FullName" placeholder="نام و نام خانوادگی"/>
+                                            <span asp-validation-for="FullName" class="error"></span>
                                         </div>
                                     </div>
                                     <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
                                         <div class="group-val">
-                                            <input type="text" name="email" placeholder="پست الکترونیکی"/>
+                                            <input type="text" asp-for="Email" placeholder="پست الکترونیکی"/>
+                                            <span asp-validation-for="Email" class="error"></span>
                                         </div>
                                     </div>
                                     <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
                                         <div class="group-val">
-                                            <textarea name="message" placeholder="متن پیام"></textarea>
+                                            <textarea asp-for="Message" placeholder="متن پیام"></textarea>
+                                            <span asp-validation-for="Message" class="error"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -67,14 +87,12 @@
                                     <a href="#" class="button" onclick="$('#cform').submit();return false;">
                                         <span class="text">ارسال پیام </span>
                                         <span class="icon">
-                                            <i class="la la-arrow-right"></i>
+                                            <i class="la la-arrow-left"></i>
                                         </span>
                                     </a>
                                 </div>
                             </form>
-                            <div class="alert-success">
-                                <p>پیام شما با موفقیت ارسال شد .</p>
-                            </div>
+                        
                         </div>
 
                     </div>
