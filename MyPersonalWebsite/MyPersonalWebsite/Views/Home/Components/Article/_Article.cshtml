@@ -6,7 +6,7 @@
     <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
         <div class="box-item card-box">
             <div class="image">
-                <a href="#">
+                <a asp-controller="Home" asp-action="ArticlesDetail" asp-route-id="@item.ArticleID">
                     <img src="~/images/blog/@item.ArticleImage">
                     <span class="info">
                         <span class="icon la la-newspaper-o"></span>

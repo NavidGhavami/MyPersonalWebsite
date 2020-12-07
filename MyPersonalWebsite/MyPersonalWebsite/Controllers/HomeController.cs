@@ -3,6 +3,7 @@ using MyPersonalWebsite.Models;
 using System.Diagnostics;
 using System.Net.Mime;
 using System.Threading;
+using MyPersonalWebsite.Data;
 
 namespace MyPersonalWebsite.Controllers
 {
@@ -35,13 +36,12 @@ namespace MyPersonalWebsite.Controllers
         {
             return View();
         }
-        public IActionResult ArticlesDetail()
-        {
-            //var detail = new Articles()
-            //{
 
-            //};
-            return View();
+        [Route("/ArticleDetails/{id}")]
+        public IActionResult ArticlesDetail(int id)
+        {
+            var article = ArticleStore.GetArticleBy(id);
+            return View(article);
         }
         public IActionResult ContactMe()
         {
