@@ -1,0 +1,151 @@
+﻿@model PersonalInfoManagement.Application.Contract.BasicInfo.EditBasicInfo
+
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h4 class="modal-title">ویرایش اطلاعات </h4>
+</div>
+
+<form asp-page="./Index" asp-page-handler="Edit"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label">نام</label>
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Family" class="control-label">نام خانوادگی</label>
+                    <input type="text" class="form-control" asp-for="Family">
+                    <span asp-validation-for="Family" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Age" class="control-label">سن</label>
+                    <input type="text" class="form-control" asp-for="Age">
+                    <span asp-validation-for="Age" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Nationality" class="control-label">ملّیت</label>
+                    <input type="text" class="form-control" asp-for="Nationality">
+                    <span asp-validation-for="Nationality" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Job" class="control-label">شغل</label>
+                    <input type="text" class="form-control" asp-for="Job">
+                    <span asp-validation-for="Job" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label">آدرس</label>
+                    <input type="text" class="form-control" asp-for="Address">
+                    <span asp-validation-for="Address" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">ایمیل</label>
+                    <input type="text" class="form-control" asp-for="Email">
+                    <span asp-validation-for="Email" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Mobile" class="control-label">موبایل</label>
+                    <input type="text" class="form-control" asp-for="Mobile">
+                    <span asp-validation-for="Mobile" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Instagram" class="control-label">اینستاگرام</label>
+                    <input type="text" class="form-control" asp-for="Instagram">
+                    <span asp-validation-for="Instagram" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Language" class="control-label">زبان</label>
+                    <input type="text" class="form-control" asp-for="Language">
+                    <span asp-validation-for="Language" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Experience" class="control-label">سابقه کاری</label>
+                    <input type="text" class="form-control" asp-for="Experience">
+                    <span asp-validation-for="Experience" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="CompleteProject" class="control-label">پروژه های تکمیلی</label>
+                    <input type="text" class="form-control" asp-for="CompleteProject">
+                    <span asp-validation-for="CompleteProject" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="HappyCustomers" class="control-label">رضایت مشتری</label>
+                    <input type="text" class="form-control" asp-for="HappyCustomers">
+                    <span asp-validation-for="HappyCustomers" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Articles" class="control-label">تعداد مقالات</label>
+                    <input type="text" class="form-control" asp-for="Articles">
+                    <span asp-validation-for="Articles" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PersianResume" class="control-label">رزومه فارسی</label>
+                    <input type="file" class="form-control" asp-for="PersianResume">
+                    <span asp-validation-for="PersianResume" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="EnglishResume" class="control-label">رزومه انگلیسی</label>
+                    <input type="file" class="form-control" asp-for="EnglishResume">
+                    <span asp-validation-for="EnglishResume" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="RecommendationLetters" class="control-label">نامه های پیشنهادی</label>
+                    <input type="file" class="form-control" asp-for="RecommendationLetters">
+                    <span asp-validation-for="RecommendationLetters" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <input asp-for="Id" type="hidden" />
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+        <button type="submit" class="btn btn-warning waves-effect waves-light">ویرایش اطلاعات</button>
+    </div>
+</form>

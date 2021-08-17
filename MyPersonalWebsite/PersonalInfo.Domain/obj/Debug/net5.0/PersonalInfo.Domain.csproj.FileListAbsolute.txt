@@ -1,0 +1,17 @@
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\bin\Debug\net5.0\PersonalInfo.Domain.deps.json
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\bin\Debug\net5.0\PersonalInfo.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\bin\Debug\net5.0\ref\PersonalInfo.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\bin\Debug\net5.0\PersonalInfo.Domain.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\bin\Debug\net5.0\0_Framework.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\bin\Debug\net5.0\PersonalInfoManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\bin\Debug\net5.0\0_Framework.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\bin\Debug\net5.0\PersonalInfoManagement.Application.Contract.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\obj\Debug\net5.0\PersonalInfo.Domain.csproj.AssemblyReference.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\obj\Debug\net5.0\PersonalInfo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\obj\Debug\net5.0\PersonalInfo.Domain.AssemblyInfoInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\obj\Debug\net5.0\PersonalInfo.Domain.AssemblyInfo.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\obj\Debug\net5.0\PersonalInfo.Domain.csproj.CoreCompileInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\obj\Debug\net5.0\PersonalInfo.Domain.csproj.CopyComplete
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\obj\Debug\net5.0\PersonalInfo.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\obj\Debug\net5.0\ref\PersonalInfo.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfo.Domain\obj\Debug\net5.0\PersonalInfo.Domain.pdb

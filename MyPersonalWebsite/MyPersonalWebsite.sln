@@ -3,9 +3,81 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersonalInfoManagement", "PersonalInfoManagement", "{05937A5B-79C6-41BA-9F11-9AEEA41CEF91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PIM.Domain", "PIM.Domain", "{AC1322A0-CDC6-4889-916E-E8497D86CC9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PIM.Application", "PIM.Application", "{7C210F03-38F1-4DED-B086-76660F386973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PIM.Infrastructure", "PIM.Infrastructure", "{EEA1DF99-5C6A-4E29-A615-9A5FB6C78562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_Framework", "0_Framework\0_Framework.csproj", "{406A31E3-2952-4AB3-A0BB-C36A410E0F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Query", "01_Query\01_Query.csproj", "{75DB1D6C-1123-4425-A819-742069C02330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfo.Domain", "PersonalInfo.Domain\PersonalInfo.Domain.csproj", "{C85BDA0E-473E-4332-ABAE-9868F0505F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfoManagement.Application.Contract", "PersonalInfoManagement.Application.Contract\PersonalInfoManagement.Application.Contract.csproj", "{A7056E7A-D2FE-452B-A04D-82F983192492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfoManagement.Application", "PersonalInfoManagement.Application\PersonalInfoManagement.Application.csproj", "{E5F54B7A-FFA0-49E2-8008-740F839D9524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfoManagement.Infrastructure.EFCore", "BasicInfoManagement.Infrastructure.EFCore\PersonalInfoManagement.Infrastructure.EFCore.csproj", "{7118A72C-B7DF-4B8C-9D98-4F045A014078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfoManagement.Configuration", "BasicInfoManagement.Configuration\PersonalInfoManagement.Configuration.csproj", "{98CDF588-E0AD-4F74-B5B8-52F2299F4D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{815D539F-81E5-4F90-BA25-381960556880}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406A31E3-2952-4AB3-A0BB-C36A410E0F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406A31E3-2952-4AB3-A0BB-C36A410E0F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406A31E3-2952-4AB3-A0BB-C36A410E0F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406A31E3-2952-4AB3-A0BB-C36A410E0F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DB1D6C-1123-4425-A819-742069C02330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DB1D6C-1123-4425-A819-742069C02330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DB1D6C-1123-4425-A819-742069C02330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DB1D6C-1123-4425-A819-742069C02330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85BDA0E-473E-4332-ABAE-9868F0505F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85BDA0E-473E-4332-ABAE-9868F0505F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85BDA0E-473E-4332-ABAE-9868F0505F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85BDA0E-473E-4332-ABAE-9868F0505F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7056E7A-D2FE-452B-A04D-82F983192492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7056E7A-D2FE-452B-A04D-82F983192492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7056E7A-D2FE-452B-A04D-82F983192492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7056E7A-D2FE-452B-A04D-82F983192492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F54B7A-FFA0-49E2-8008-740F839D9524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F54B7A-FFA0-49E2-8008-740F839D9524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F54B7A-FFA0-49E2-8008-740F839D9524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F54B7A-FFA0-49E2-8008-740F839D9524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7118A72C-B7DF-4B8C-9D98-4F045A014078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7118A72C-B7DF-4B8C-9D98-4F045A014078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7118A72C-B7DF-4B8C-9D98-4F045A014078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7118A72C-B7DF-4B8C-9D98-4F045A014078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CDF588-E0AD-4F74-B5B8-52F2299F4D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CDF588-E0AD-4F74-B5B8-52F2299F4D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CDF588-E0AD-4F74-B5B8-52F2299F4D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CDF588-E0AD-4F74-B5B8-52F2299F4D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815D539F-81E5-4F90-BA25-381960556880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815D539F-81E5-4F90-BA25-381960556880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815D539F-81E5-4F90-BA25-381960556880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815D539F-81E5-4F90-BA25-381960556880}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC1322A0-CDC6-4889-916E-E8497D86CC9B} = {05937A5B-79C6-41BA-9F11-9AEEA41CEF91}
+		{7C210F03-38F1-4DED-B086-76660F386973} = {05937A5B-79C6-41BA-9F11-9AEEA41CEF91}
+		{EEA1DF99-5C6A-4E29-A615-9A5FB6C78562} = {05937A5B-79C6-41BA-9F11-9AEEA41CEF91}
+		{C85BDA0E-473E-4332-ABAE-9868F0505F67} = {AC1322A0-CDC6-4889-916E-E8497D86CC9B}
+		{A7056E7A-D2FE-452B-A04D-82F983192492} = {7C210F03-38F1-4DED-B086-76660F386973}
+		{E5F54B7A-FFA0-49E2-8008-740F839D9524} = {7C210F03-38F1-4DED-B086-76660F386973}
+		{7118A72C-B7DF-4B8C-9D98-4F045A014078} = {EEA1DF99-5C6A-4E29-A615-9A5FB6C78562}
+		{98CDF588-E0AD-4F74-B5B8-52F2299F4D39} = {EEA1DF99-5C6A-4E29-A615-9A5FB6C78562}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA8A76CB-F1D2-43B7-B5BF-9F1391CAF4A1}
