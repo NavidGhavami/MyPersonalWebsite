@@ -1,50 +1,178 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
+
+
+<!-- Mirrored from tunis.setinco.com/dark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Jun 2021 07:17:10 GMT -->
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ServiceHost</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    @if (ViewData["Title"] != null)
+    {
+        <title>@ViewData["Title"] | وب سایت شخصی نوید قوامی</title>
+    }
+    else
+    {
+        <title>وب سایت شخصی نوید قوامی</title>
+    }
+
+    <meta name="description" content="@ViewData["metaDescription"]">
+    <meta name="keywords" content="@ViewData["keywords"]">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="~/SiteTheme/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/SiteTheme/assets/css/preloader.min.css" rel="stylesheet">
+    <link href="~/SiteTheme/assets/css/circle.css" rel="stylesheet">
+    <link href="~/SiteTheme/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/SiteTheme/assets/css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="~/SiteTheme/assets/css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="~/SiteTheme/assets/css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="~/SiteTheme/assets/css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="~/SiteTheme/assets/css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="~/SiteTheme/assets/css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="~/SiteTheme/assets/css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="~/SiteTheme/assets/css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="~/SiteTheme/assets/css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="~/SiteTheme/assets/css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="~/SiteTheme/assets/css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="~/SiteTheme/assets/css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="~/SiteTheme/assets/css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="~/SiteTheme/assets/css/styleswitcher.css" />
+    <!--BEGIN RAYCHAT CODE-->
+    <!--<script type="text/javascript">!function () { function t() { var t = document.createElement("script"); t.type = "text/javascript", t.async = !0, localStorage.getItem("rayToken") ? t.src = "https://app.raychat.io/scripts/js/" + o + "?rid=" + localStorage.getItem("rayToken") + "&href=" + window.location.href : t.src = "https://app.raychat.io/scripts/js/" + o + "?href=" + window.location.href; var e = document.getElementsByTagName("script")[0]; e.parentNode.insertBefore(t, e) } var e = document, a = window, o = "412f4210-26e6-4df7-a423-16d87e2a46e5"; "complete" == e.readyState ? t() : a.attachEvent ? a.attachEvent("onload", t) : a.addEventListener("load", t, !1) }();</script>--> <!--END RAYCHAT CODE-->
+    <!-- Modernizr JS File -->
+    <!--<script src="~/SiteTheme/assets/js/modernizr.custom.js"></script>-->
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">ServiceHost</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+
+<body class="home ">
+    <!-- Live Style Switcher Starts - demo only -->
+    <div id="switcher" class="">
+        <div class="content-switcher">
+            <h4>تغییر رنگ</h4>
+            <ul>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/purple.png" alt="purple" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/red.png" alt="red" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/blueviolet.png" alt="blueviolet" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/blue.png" alt="blue" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/goldenrod.png" alt="goldenrod" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/magenta.png" alt="magenta" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/yellowgreen.png" alt="yellowgreen" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/orange.png" alt="orange" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/green.png" alt="green" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="~/SiteTheme/assets/img/styleswitcher/yellow.png" alt="yellow" /></a>
+                </li>
+            </ul>
+            <div id="hideSwitcher">&times;</div>
+        </div>
+    </div>
+    <div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+    <!-- Live Style Switcher Ends - demo only -->
+    <!-- Header Starts -->
+    <header class="header" id="navbar-collapse-toggle">
+        <!-- Fixed Navigation Starts -->
+        <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+            <li class="icon-box active">
+                <i class="fa fa-home"></i>
+                <a href="index.html">
+                    <h2>صفحه_اصلی</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-user"></i>
+                <a href="about.html">
+                    <h2>رزومه_من</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-briefcase"></i>
+                <a href="portfolio.html">
+                    <h2>پروژه_های_من</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-envelope-open"></i>
+                <a href="contact.html">
+                    <h2>ارتباط_با_من</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-comments"></i>
+                <a href="blog.html">
+                    <h2>مقالات_و_بلاگ_ها</h2>
+                </a>
+            </li>
+        </ul>
+        <!-- Fixed Navigation Ends -->
+        <!-- Mobile Menu Starts -->
+        <nav role="navigation" class="d-block d-lg-none">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="list-unstyled" id="menu">
+                    <li class="active"><a href="index.html"><i class="fa fa-home"></i><span>صفحه اصلی</span></a></li>
+                    <li><a href="about.html"><i class="fa fa-user"></i><span>رزومه من</span></a></li>
+                    <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>پروژه های من</span></a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>ارتباط با من </span></a></li>
+                    <li><a href="blog.html"><i class="fa fa-comments"></i><span>مقالات و بلاگ ها</span></a></li>
+                </ul>
             </div>
         </nav>
+        <!-- Mobile Menu Ends -->
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <!-- Header Ends -->
+    <!-- Main Content Starts -->
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 1400 - ServiceHost - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+    @RenderBody()
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- Main Content Ends -->
+    <!-- Template JS Files -->
+    <script src="~/SiteTheme/assets/js/jquery-3.5.0.min.js"></script>
+    <script src="~/SiteTheme/assets/js/styleswitcher.js"></script>
+    <script src="~/SiteTheme/assets/js/preloader.min.js"></script>
+    <script src="~/SiteTheme/assets/js/fm.revealator.jquery.min.js"></script>
+    <script src="~/SiteTheme/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/SiteTheme/assets/js/masonry.pkgd.min.js"></script>
+    <script src="~/SiteTheme/assets/js/classie.js"></script>
+    <script src="~/SiteTheme/assets/js/cbpGridGallery.js"></script>
+    <script src="~/SiteTheme/assets/js/jquery.hoverdir.js"></script>
+    <script src="~/SiteTheme/assets/js/popper.min.js"></script>
+    <script src="~/SiteTheme/assets/js/bootstrap.js"></script>
+    <script src="~/SiteTheme/assets/js/custom.js"></script>
 
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
+
+
+<!-- Mirrored from tunis.setinco.com/dark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Jun 2021 07:17:20 GMT -->
 </html>
