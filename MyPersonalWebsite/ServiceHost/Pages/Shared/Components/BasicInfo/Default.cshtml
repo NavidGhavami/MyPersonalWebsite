@@ -1,0 +1,48 @@
+﻿@model _01_Query.Contract.BasicInfoQueryModel
+
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="~/SiteTheme/assets/images/resume2.jpg" class="img-fluid mb-15 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft" alt="وب سایت شخصی نوید قوامی" title="وب سایت شخصی نوید قوامی">
+    </div>
+    <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+        <span class="heading-meta style-1">رزومه من</span>
+        <h3 class="lonon-about-heading text-justify"> من بـرنـامـه نویــس و توسعــه دهنـده وب می بـاشـم!</h3>
+        <p class="text-justify">
+            من فردی بالغ ، مثبت اندیش و سخت کوش هستم ، که همیشه در تلاش برای دستیابی به بالاترین استاندارد ممکن است.
+        </p>
+        <p class="text-justify">
+            من یک متخصص و برنامه نویس حرفه ای در زمینه وب و هوش مصنوعی با سابقه اثبات شده می باشم که حوزه های کاری بنده در طراحی وب سایت ها ،  مدیریت پایگاه های داده و آموزش برنامه نویسی می باشد. من دارای مهارتهای فنی قوی و همچنین مهارت های بین فردی عالی هستم ، که مرا قادر می سازد با طیف وسیعی از مشتریان ارتباط برقرار کنم. من مشتاق به چالش کشیدن خود می باشم تا بتوانم مهارت های برنامه نویسی خود را افزایش دهم و پیشرفت کنم. بزرگترین اشتیاق من در زندگی استفاده از دانش فنی برای بهره مندی از افراد و سازمان های دیگر است.
+        </p>
+        <p class="text-justify">
+            من ذهنی روشن و منطقی  با رویکردی عملی برای حل مشکلات و انگیزه ای برای مشاهده کامل امور را دارم من مشتاق یادگیری هستم ، از غلبه بر چالش ها لذت می برم و علاقه واقعی به مدیریت کسب و کار و موفقیت سازمان ها دارم.
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="lonon-about-contact-wrap">
+        <div class="row">
+            <div class="col-md-4">
+                <p><b>نام: </b>@Model.Name</p>
+                <p><b>سن: </b> @Model.Age</p>
+                <p><b>شغل: </b> @Model.Job</p>
+                <p><b>آدرس: </b> @Model.Address</p>
+                <p><b>تعداد مشتریان راضی: </b> @Model.HappyCustomers</p>
+            </div>
+            <div class="col-md-4">
+                <p><b>نام خانوادگی: </b>@Model.Family</p>
+                <p><b>ملّیت: </b> @Model.Nationality</p>
+                <p><b>اینستاگرام: </b> @Model.Instagram</p>
+                <p><b>سابقه شغلی و کاری: </b> @Model.Experience</p>
+                <p><b>مقالات منتشر شده: </b> @Model.Articles</p>
+            </div>
+            <div class="col-md-4">
+                <p><b>ایمیل: </b> @Model.Email</p>
+                <p><b>موبایل: </b>@Model.Mobile</p>
+                <p><b>زبان های خارجی: </b>@Model.Language</p>
+                <p><b>پروژه های تکمیل شده: </b> @Model.CompleteProject</p>
+            </div>
+        </div>
+    </div>
+</div>
+

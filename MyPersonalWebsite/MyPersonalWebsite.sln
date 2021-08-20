@@ -11,21 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PIM.Application", "PIM.Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PIM.Infrastructure", "PIM.Infrastructure", "{EEA1DF99-5C6A-4E29-A615-9A5FB6C78562}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_Framework", "0_Framework\0_Framework.csproj", "{406A31E3-2952-4AB3-A0BB-C36A410E0F69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0_Framework", "0_Framework\0_Framework.csproj", "{406A31E3-2952-4AB3-A0BB-C36A410E0F69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Query", "01_Query\01_Query.csproj", "{75DB1D6C-1123-4425-A819-742069C02330}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Query", "01_Query\01_Query.csproj", "{75DB1D6C-1123-4425-A819-742069C02330}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfo.Domain", "PersonalInfo.Domain\PersonalInfo.Domain.csproj", "{C85BDA0E-473E-4332-ABAE-9868F0505F67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalInfo.Domain", "PersonalInfo.Domain\PersonalInfo.Domain.csproj", "{C85BDA0E-473E-4332-ABAE-9868F0505F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfoManagement.Application.Contract", "PersonalInfoManagement.Application.Contract\PersonalInfoManagement.Application.Contract.csproj", "{A7056E7A-D2FE-452B-A04D-82F983192492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalInfoManagement.Application.Contract", "PersonalInfoManagement.Application.Contract\PersonalInfoManagement.Application.Contract.csproj", "{A7056E7A-D2FE-452B-A04D-82F983192492}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfoManagement.Application", "PersonalInfoManagement.Application\PersonalInfoManagement.Application.csproj", "{E5F54B7A-FFA0-49E2-8008-740F839D9524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalInfoManagement.Application", "PersonalInfoManagement.Application\PersonalInfoManagement.Application.csproj", "{E5F54B7A-FFA0-49E2-8008-740F839D9524}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfoManagement.Infrastructure.EFCore", "BasicInfoManagement.Infrastructure.EFCore\PersonalInfoManagement.Infrastructure.EFCore.csproj", "{7118A72C-B7DF-4B8C-9D98-4F045A014078}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalInfoManagement.Infrastructure.EFCore", "BasicInfoManagement.Infrastructure.EFCore\PersonalInfoManagement.Infrastructure.EFCore.csproj", "{7118A72C-B7DF-4B8C-9D98-4F045A014078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalInfoManagement.Configuration", "BasicInfoManagement.Configuration\PersonalInfoManagement.Configuration.csproj", "{98CDF588-E0AD-4F74-B5B8-52F2299F4D39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalInfoManagement.Configuration", "BasicInfoManagement.Configuration\PersonalInfoManagement.Configuration.csproj", "{98CDF588-E0AD-4F74-B5B8-52F2299F4D39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{815D539F-81E5-4F90-BA25-381960556880}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{815D539F-81E5-4F90-BA25-381960556880}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -164,3 +164,10 @@ E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonal
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\PersonalInformation\BasicInfo\Create.cshtml.g.cs
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\PersonalInformation\BasicInfo\Edit.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\MyResume.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\BasicInfo\Default.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\EducationExperience\Default.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\JobExperience\Default.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Skills\Default.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\01_Query.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\01_Query.pdb

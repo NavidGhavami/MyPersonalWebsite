@@ -1,32 +1,72 @@
-﻿@page
+﻿
+
+@page
+@using Microsoft.EntityFrameworkCore.Diagnostics
 @model IndexModel
 @{
     ViewData["Title"] = "به وب سایت شخصی نوید قوامی خوش آمدید";
 }
 
-<section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1">
-    <div class="color-block d-none d-lg-block"></div>
-    <div class="row home-details-container align-items-center">
-        <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
-        <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
-            <div>
-                <img src="~/SiteTheme/assets/img/background.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="وب سایت شخصی نوید قوامی" title="به وب سایت شخصی نوید قوامی خوش آمدید..."/>
-                <h1 class="text-uppercase poppins-font">من نوید قوامی هستم<span>توسعه دهنده سایت</span></h1>
-                <p class="open-sans-font">
+<div id="lonon-main">
 
-                    بنده نوید قوامی هستم. برنامه نویس و توسعه دهنده وب می باشم. در این سایت می توانید رزومه بنده را مشاهده نمایید. همچنین برای سفارش و مشاوره برای کسب و کار اینترنتی خود می توانید با بنده در ارتباط باشید.
-                   
-                    <br /><br />
-
-                    """ هر کسی می تواند کدی بنویسد که رایانه بتواند درک کند. برنامه نویسان خوب کدی می نویسند که بشر می تواند آن را درک کند """
-
-                </p>
-                <a class="button" asp-page="/MyResume">
-                    <span class="button-text">درباره من بیشتر بدانید؟!</span>
-                    <span class="button-icon fa fa-arrow-left"></span>
-                </a>
+    <div class="lonon-about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="~/SiteTheme/assets/images/resume.jpg" class="img-fluid mb-15 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft" alt="وب سایت شخصی نوید قوامی" title="وب سایت شخصی نوید قوامی">
+                </div>
+                <div class="col-md-5 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                    <span class="heading-meta style-1">به وب سایت شخصی بنده خوش آمدید</span>
+                    <h3 class="lonon-about-heading">من نوید قوامی هستم</h3>
+                    <p>
+                        من برنامه نویس و توسعه دهنده وب می باشم. در این سایت می توانید رزومه بنده را به طور کامل مشاهده نمایید.
+                    </p>
+                    <p>
+                        <strong class="text-danger">***</strong> شما می توانید مقالات روز دنیا در مورد تکنولوژی، برنامه نویسی، کامپیوتر و فناوری اطلاعات را در این سایت مطالعه نمایید و سطح علمی خودتان را بالا ببرید.
+                    </p>
+                    <p>
+                        <strong class="text-danger">***</strong> همچنین برای سفــارش و مشــاوره بـرای کسب و کـار اینترنتی خود می توانید با رجـوع به قسمت "ارتباط با من" با بنده در ارتباط باشید.
+                    </p>
+                    <p>
+                        <strong class="text-danger">***</strong> هر کسی می تواند کدی بنویسد که رایانه بتواند درک کند. برنامه نویسان خوب کدی می نویسند که بشر می تواند آن را درک کند   <strong class="text-danger">***</strong>
+                    </p>
+                    <div class="cardvisit">
+                        <h3>نوید قوامی</h3>
+                        <span>برنامه نویس و توسعه دهنده وب</span>
+                        <div class="divider-line"></div>
+                        <p><i class="ti-mobile"></i> +98 9337878585</p>
+                        <p><i class="ti-email"></i> navid_ghavami@outlook.com</p>
+                        <p><i class="ti-location-pin"></i> ایران. تهران (Iran.Tehran)</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
+
+
+    <div id="lonon-footer2">
+        <div class="lonon-narrow-content">
+            <div class="row">
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <p class="lonon-lead">
+                        استفاده از مطالب این سایت فقط برای مقاصد غیرتجاری و با ذکر منبع
+                        بلامانع است. کلیه حقوق این سایت متعلق به نوید قوامی می‌باشد.
+                    </p>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <h2 class="text-center">
+                    </h2>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <a asp-page="/MyResume">
+                        <h2 class="text-center">
+                            درباره <strong class="text-warning">من</strong> بیشتر بدانید؟!
+                        </h2>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 

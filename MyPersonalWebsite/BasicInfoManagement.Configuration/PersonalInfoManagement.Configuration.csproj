@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\01_Query\01_Query.csproj" />
     <ProjectReference Include="..\BasicInfoManagement.Infrastructure.EFCore\PersonalInfoManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\PersonalInfoManagement.Application.Contract\PersonalInfoManagement.Application.Contract.csproj" />
     <ProjectReference Include="..\PersonalInfoManagement.Application\PersonalInfoManagement.Application.csproj" />

@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using _01_Query.Contract;
+using _01_Query.Query;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using PersonalInfo.Domain.BasicInformation;
 using PersonalInfoManagement.Application;
@@ -14,6 +16,22 @@ namespace PersonalInfoManagement.Configuration
         {
             services.AddTransient<IBasicInfoApplication, BasicInfoApplication>();
             services.AddTransient<IBasicInfoRepository, BasicInfoRepository>();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            services.AddTransient<IBasicInfoQuery, BasicInfoQuery>();
 
 
 

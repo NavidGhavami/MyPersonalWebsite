@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contract\" />
-    <Folder Include="Query\" />
+    <ProjectReference Include="..\BasicInfoManagement.Infrastructure.EFCore\PersonalInfoManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
 
 </Project>

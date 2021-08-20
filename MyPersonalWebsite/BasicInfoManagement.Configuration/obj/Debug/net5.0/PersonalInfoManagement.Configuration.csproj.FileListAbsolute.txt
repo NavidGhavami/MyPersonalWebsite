@@ -21,3 +21,5 @@ E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonal
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\0_Framework.pdb
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\PersonalInfo.Domain.pdb
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\obj\Debug\net5.0\PersonalInfoManagement.Configuration.csproj.CopyComplete
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\01_Query.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\01_Query.pdb
