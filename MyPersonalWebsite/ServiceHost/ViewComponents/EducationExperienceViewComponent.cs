@@ -1,16 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using _01_Query.Contract.EducationExperience;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ServiceHost.ViewComponents
 {
     public class EducationExperienceViewComponent : ViewComponent
     {
+        private readonly IEducationExperienceQuery _educationExperienceQuery;
+
+        public EducationExperienceViewComponent(IEducationExperienceQuery educationExperienceQuery)
+        {
+            _educationExperienceQuery = educationExperienceQuery;
+        }
+
         public IViewComponentResult Invoke()
         {
-            return View();
+            var educationExperience = _educationExperienceQuery.GetList();
+            return View(educationExperience);
         }
     }
 }
