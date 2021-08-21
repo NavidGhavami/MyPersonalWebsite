@@ -1,10 +1,14 @@
 ﻿using _01_Query.Contract;
+using _01_Query.Contract.BasicInfo;
+using _01_Query.Contract.JobExperience;
 using _01_Query.Query;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using PersonalInfo.Domain.BasicInformation;
+using PersonalInfo.Domain.JobExperience;
 using PersonalInfoManagement.Application;
 using PersonalInfoManagement.Application.Contract.BasicInfo;
+using PersonalInfoManagement.Application.Contract.JobExperience;
 using PersonalInfoManagement.Infrastructure.EFCore;
 using PersonalInfoManagement.Infrastructure.EFCore.Repository;
 
@@ -17,10 +21,8 @@ namespace PersonalInfoManagement.Configuration
             services.AddTransient<IBasicInfoApplication, BasicInfoApplication>();
             services.AddTransient<IBasicInfoRepository, BasicInfoRepository>();
 
-
-
-
-
+            services.AddTransient<IJobExperienceApplication, JobExperienceApplication>();
+            services.AddTransient<IJobExperienceRepository, JobExperienceRepository>();
 
 
 
@@ -32,17 +34,7 @@ namespace PersonalInfoManagement.Configuration
 
 
             services.AddTransient<IBasicInfoQuery, BasicInfoQuery>();
-
-
-
-
-
-
-
-
-
-
-
+            services.AddTransient<IJobExperienceQuery, JobExperienceQuery>();
 
 
 

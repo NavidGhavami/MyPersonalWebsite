@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PersonalInfo.Domain.BasicInformation;
+using PersonalInfo.Domain.JobExperience;
 using PersonalInfoManagement.Infrastructure.EFCore.Mapping;
 
 namespace PersonalInfoManagement.Infrastructure.EFCore
@@ -7,6 +8,7 @@ namespace PersonalInfoManagement.Infrastructure.EFCore
     public class PersonalInfoContext : DbContext
     {
         public DbSet<BasicInformation> BasicInformations { get; set; }
+        public DbSet<JobExperience> JobExperiences { get; set; }
 
         public PersonalInfoContext(DbContextOptions<PersonalInfoContext> options) : base(options)
         {

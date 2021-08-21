@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using _01_Query.Contract;
+using _01_Query.Contract.BasicInfo;
 using PersonalInfoManagement.Infrastructure.EFCore;
 
 namespace _01_Query.Query

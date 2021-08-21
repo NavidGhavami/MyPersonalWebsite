@@ -1,4 +1,4 @@
-﻿namespace _01_Query.Contract
+﻿namespace _01_Query.Contract.BasicInfo
 {
     public class BasicInfoQueryModel
     {

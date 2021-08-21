@@ -1,16 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using _01_Query.Contract.JobExperience;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ServiceHost.ViewComponents
 {
     public class JobExperienceViewComponent : ViewComponent
     {
+        private readonly IJobExperienceQuery _jobExperienceQuery;
+
+        public JobExperienceViewComponent(IJobExperienceQuery jobExperienceQuery)
+        {
+            _jobExperienceQuery = jobExperienceQuery;
+        }
+
         public IViewComponentResult Invoke()
         {
-            return View();
+            var jobExperience = _jobExperienceQuery.GetList();
+            return View(jobExperience);
         }
     }
 }
