@@ -1,0 +1,66 @@
+﻿@page
+@model ServiceHost.Pages.MyProjectsModel
+
+
+@{
+    ViewData["Title"] = "پروژه و نمونه کار ها";
+}
+
+<div id="lonon-main">
+
+    <div class="lonon-projects">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">نمونه کار های من</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">پروژه های من</h2>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var item in Model.Projects)
+                {
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                        <a asp-page="/ProjectDetail" asp-route-id="@item.Slug" class="desc">
+                            <div class="project">
+                                <img src="~/Pictures/@item.FirstPicture" class="img-fluid" alt="@item.PictureAlt" title="@item.PictureTitle">
+                                <div class="desc">
+                                    <div class="con">
+                                        <h3>@item.Name</h3>
+                                        <span>نام شرکت : @item.Customer</span>
+                                        <span>آدرس سایت : @item.UrlLink</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div id="lonon-footer2">
+        <div class="lonon-narrow-content">
+            <div class="row">
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <p class="lonon-lead">
+                        استفاده از مطالب این سایت فقط برای مقاصد غیرتجاری و با ذکر منبع
+                        بلامانع است. کلیه حقوق این سایت متعلق به نوید قوامی می‌باشد.
+                    </p>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <h2 class="text-center">
+                    </h2>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <a asp-page="/MyServices">
+                        <h2 class="text-center">
+                            خدمات و تعرفه های  <strong class="text-warning">من</strong>  را مشاهده فرمایید!
+                        </h2>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

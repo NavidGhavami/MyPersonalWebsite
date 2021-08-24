@@ -7,6 +7,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BasicInfoManagement.Infrastructure.EFCore\PersonalInfoManagement.Infrastructure.EFCore.csproj" />
+    <ProjectReference Include="..\ProjectManagement.Domain\ProjectManagement.Domain.csproj" />
+    <ProjectReference Include="..\ProjectManagement.Infrastructure.EFCore\ProjectManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
 
 </Project>

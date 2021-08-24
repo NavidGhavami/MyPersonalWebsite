@@ -30,6 +30,12 @@
             "projectReferences": {
               "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\BasicInfoManagement.Infrastructure.EFCore\\PersonalInfoManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\BasicInfoManagement.Infrastructure.EFCore\\PersonalInfoManagement.Infrastructure.EFCore.csproj"
+              },
+              "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Domain\\ProjectManagement.Domain.csproj": {
+                "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Domain\\ProjectManagement.Domain.csproj"
+              },
+              "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Infrastructure.EFCore\\ProjectManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Infrastructure.EFCore\\ProjectManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -608,6 +614,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\01_Query\\01_Query.csproj": {
+                "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\01_Query\\01_Query.csproj"
+              },
               "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Application\\ProjectManagement.Application.csproj": {
                 "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Application\\ProjectManagement.Application.csproj"
               },

@@ -1840,7 +1840,9 @@
       },
       "01_Query/1.0.0": {
         "dependencies": {
-          "PersonalInfoManagement.Infrastructure.EFCore": "1.0.0"
+          "PersonalInfoManagement.Infrastructure.EFCore": "1.0.0",
+          "ProjectManagement.Domain": "1.0.0",
+          "ProjectManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
           "01_Query.dll": {}
@@ -1950,6 +1952,7 @@
       },
       "ProjectManagement.Configuration/1.0.0": {
         "dependencies": {
+          "01_Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "ProjectManagement.Application": "1.0.0",
           "ProjectManagement.Infrastructure.EFCore": "1.0.0"

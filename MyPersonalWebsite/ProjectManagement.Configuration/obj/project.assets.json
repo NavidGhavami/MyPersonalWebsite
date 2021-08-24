@@ -1563,6 +1563,21 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "01_Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PersonalInfoManagement.Infrastructure.EFCore": "1.0.0",
+          "ProjectManagement.Domain": "1.0.0",
+          "ProjectManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/01_Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01_Query.dll": {}
+        }
+      },
       "0_Framework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1575,6 +1590,49 @@
         },
         "runtime": {
           "bin/placeholder/0_Framework.dll": {}
+        }
+      },
+      "PersonalInfo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "PersonalInfoManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PersonalInfo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersonalInfo.Domain.dll": {}
+        }
+      },
+      "PersonalInfoManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/PersonalInfoManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersonalInfoManagement.Application.Contract.dll": {}
+        }
+      },
+      "PersonalInfoManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "PersonalInfo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PersonalInfoManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersonalInfoManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "ProjectManagement.Application/1.0.0": {
@@ -5958,10 +6016,30 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "01_Query/1.0.0": {
+      "type": "project",
+      "path": "../01_Query/01_Query.csproj",
+      "msbuildProject": "../01_Query/01_Query.csproj"
+    },
     "0_Framework/1.0.0": {
       "type": "project",
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
+    },
+    "PersonalInfo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PersonalInfo.Domain/PersonalInfo.Domain.csproj",
+      "msbuildProject": "../PersonalInfo.Domain/PersonalInfo.Domain.csproj"
+    },
+    "PersonalInfoManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../PersonalInfoManagement.Application.Contract/PersonalInfoManagement.Application.Contract.csproj",
+      "msbuildProject": "../PersonalInfoManagement.Application.Contract/PersonalInfoManagement.Application.Contract.csproj"
+    },
+    "PersonalInfoManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../BasicInfoManagement.Infrastructure.EFCore/PersonalInfoManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../BasicInfoManagement.Infrastructure.EFCore/PersonalInfoManagement.Infrastructure.EFCore.csproj"
     },
     "ProjectManagement.Application/1.0.0": {
       "type": "project",
@@ -5986,6 +6064,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "01_Query >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0",
       "ProjectManagement.Application >= 1.0.0",
       "ProjectManagement.Infrastructure.EFCore >= 1.0.0"
@@ -6018,6 +6097,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\01_Query\\01_Query.csproj": {
+              "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\01_Query\\01_Query.csproj"
+            },
             "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Application\\ProjectManagement.Application.csproj": {
               "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Application\\ProjectManagement.Application.csproj"
             },

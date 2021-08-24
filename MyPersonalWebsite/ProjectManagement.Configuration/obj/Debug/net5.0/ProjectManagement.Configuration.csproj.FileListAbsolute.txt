@@ -21,3 +21,11 @@ E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonal
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\obj\Debug\net5.0\ProjectManagement.Configuration.dll
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\obj\Debug\net5.0\ref\ProjectManagement.Configuration.dll
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\obj\Debug\net5.0\ProjectManagement.Configuration.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\01_Query.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\PersonalInfo.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\PersonalInfoManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\PersonalInfoManagement.Infrastructure.EFCore.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\01_Query.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\PersonalInfo.Domain.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\PersonalInfoManagement.Application.Contract.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\PersonalInfoManagement.Infrastructure.EFCore.pdb

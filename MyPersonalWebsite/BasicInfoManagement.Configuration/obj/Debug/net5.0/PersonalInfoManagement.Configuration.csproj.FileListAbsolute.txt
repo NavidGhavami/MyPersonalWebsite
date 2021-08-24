@@ -23,3 +23,9 @@ E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonal
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\obj\Debug\net5.0\PersonalInfoManagement.Configuration.csproj.CopyComplete
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\01_Query.dll
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\01_Query.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\ProjectManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\ProjectManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\ProjectManagement.Infrastructure.EFCore.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\ProjectManagement.Application.Contract.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\ProjectManagement.Domain.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BasicInfoManagement.Configuration\bin\Debug\net5.0\ProjectManagement.Infrastructure.EFCore.pdb

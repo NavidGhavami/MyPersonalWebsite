@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using _01_Query.Contract.Project;
+using _01_Query.Contract.ProjectCategory;
+using _01_Query.Query;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ProjectManagement.Application;
 using ProjectManagement.Application.Contract.Project;
@@ -24,6 +27,8 @@ namespace ProjectManagement.Configuration
 
 
 
+            services.AddTransient<IProjectCategoryQuery, ProjectCategoryQuery>();
+            services.AddTransient<IProjectQuery, ProjectQuery>();
 
 
 

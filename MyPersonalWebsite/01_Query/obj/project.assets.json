@@ -1619,6 +1619,48 @@
         "runtime": {
           "bin/placeholder/PersonalInfoManagement.Infrastructure.EFCore.dll": {}
         }
+      },
+      "ProjectManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProjectManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjectManagement.Application.Contract.dll": {}
+        }
+      },
+      "ProjectManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "ProjectManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProjectManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjectManagement.Domain.dll": {}
+        }
+      },
+      "ProjectManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "ProjectManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProjectManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjectManagement.Infrastructure.EFCore.dll": {}
+        }
       }
     }
   },
@@ -5964,11 +6006,28 @@
       "type": "project",
       "path": "../BasicInfoManagement.Infrastructure.EFCore/PersonalInfoManagement.Infrastructure.EFCore.csproj",
       "msbuildProject": "../BasicInfoManagement.Infrastructure.EFCore/PersonalInfoManagement.Infrastructure.EFCore.csproj"
+    },
+    "ProjectManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../ProjectManagement.Application.Contract/ProjectManagement.Application.Contract.csproj",
+      "msbuildProject": "../ProjectManagement.Application.Contract/ProjectManagement.Application.Contract.csproj"
+    },
+    "ProjectManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ProjectManagement.Domain/ProjectManagement.Domain.csproj",
+      "msbuildProject": "../ProjectManagement.Domain/ProjectManagement.Domain.csproj"
+    },
+    "ProjectManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../ProjectManagement.Infrastructure.EFCore/ProjectManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../ProjectManagement.Infrastructure.EFCore/ProjectManagement.Infrastructure.EFCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "PersonalInfoManagement.Infrastructure.EFCore >= 1.0.0"
+      "PersonalInfoManagement.Infrastructure.EFCore >= 1.0.0",
+      "ProjectManagement.Domain >= 1.0.0",
+      "ProjectManagement.Infrastructure.EFCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6000,6 +6059,12 @@
           "projectReferences": {
             "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\BasicInfoManagement.Infrastructure.EFCore\\PersonalInfoManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\BasicInfoManagement.Infrastructure.EFCore\\PersonalInfoManagement.Infrastructure.EFCore.csproj"
+            },
+            "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Domain\\ProjectManagement.Domain.csproj": {
+              "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Domain\\ProjectManagement.Domain.csproj"
+            },
+            "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Infrastructure.EFCore\\ProjectManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ProjectManagement.Infrastructure.EFCore\\ProjectManagement.Infrastructure.EFCore.csproj"
             }
           }
         }

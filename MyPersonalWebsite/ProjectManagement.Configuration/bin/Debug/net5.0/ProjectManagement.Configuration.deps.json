@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "ProjectManagement.Configuration/1.0.0": {
         "dependencies": {
+          "01_Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "ProjectManagement.Application": "1.0.0",
           "ProjectManagement.Infrastructure.EFCore": "1.0.0"
@@ -1101,6 +1102,16 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "01_Query/1.0.0": {
+        "dependencies": {
+          "PersonalInfoManagement.Infrastructure.EFCore": "1.0.0",
+          "ProjectManagement.Domain": "1.0.0",
+          "ProjectManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "01_Query.dll": {}
+        }
+      },
       "0_Framework/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
@@ -1108,6 +1119,34 @@
         },
         "runtime": {
           "0_Framework.dll": {}
+        }
+      },
+      "PersonalInfo.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "PersonalInfoManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "PersonalInfo.Domain.dll": {}
+        }
+      },
+      "PersonalInfoManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0"
+        },
+        "runtime": {
+          "PersonalInfoManagement.Application.Contract.dll": {}
+        }
+      },
+      "PersonalInfoManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "PersonalInfo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PersonalInfoManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "ProjectManagement.Application/1.0.0": {
@@ -1861,7 +1900,27 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "01_Query/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "0_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonalInfo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonalInfoManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonalInfoManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

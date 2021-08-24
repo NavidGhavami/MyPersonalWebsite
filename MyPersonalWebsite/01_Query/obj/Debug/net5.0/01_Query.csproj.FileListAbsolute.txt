@@ -19,3 +19,9 @@ E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonal
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\01_Query\bin\Debug\net5.0\PersonalInfo.Domain.pdb
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\01_Query\bin\Debug\net5.0\PersonalInfoManagement.Application.Contract.pdb
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\01_Query\obj\Debug\net5.0\01_Query.csproj.CopyComplete
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\01_Query\bin\Debug\net5.0\ProjectManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\01_Query\bin\Debug\net5.0\ProjectManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\01_Query\bin\Debug\net5.0\ProjectManagement.Infrastructure.EFCore.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\01_Query\bin\Debug\net5.0\ProjectManagement.Domain.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\01_Query\bin\Debug\net5.0\ProjectManagement.Infrastructure.EFCore.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\01_Query\bin\Debug\net5.0\ProjectManagement.Application.Contract.pdb
