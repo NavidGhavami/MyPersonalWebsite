@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\01_Query\01_Query.csproj" />
     <ProjectReference Include="..\BasicInfoManagement.Configuration\PersonalInfoManagement.Configuration.csproj" />
+    <ProjectReference Include="..\ProjectManagement.Configuration\ProjectManagement.Configuration.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -37,6 +37,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.9",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "PersonalInfoManagement.Configuration": "1.0.0",
+          "ProjectManagement.Configuration": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -1922,6 +1923,67 @@
         },
         "compile": {
           "PersonalInfoManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "ProjectManagement.Application/1.0.0": {
+        "dependencies": {
+          "ProjectManagement.Application.Contract": "1.0.0",
+          "ProjectManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ProjectManagement.Application.dll": {}
+        },
+        "compile": {
+          "ProjectManagement.Application.dll": {}
+        }
+      },
+      "ProjectManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "ProjectManagement.Application.Contract.dll": {}
+        },
+        "compile": {
+          "ProjectManagement.Application.Contract.dll": {}
+        }
+      },
+      "ProjectManagement.Configuration/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "ProjectManagement.Application": "1.0.0",
+          "ProjectManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "ProjectManagement.Configuration.dll": {}
+        },
+        "compile": {
+          "ProjectManagement.Configuration.dll": {}
+        }
+      },
+      "ProjectManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "ProjectManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "ProjectManagement.Domain.dll": {}
+        },
+        "compile": {
+          "ProjectManagement.Domain.dll": {}
+        }
+      },
+      "ProjectManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "ProjectManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ProjectManagement.Infrastructure.EFCore.dll": {}
+        },
+        "compile": {
+          "ProjectManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4552,6 +4614,31 @@
       "sha512": ""
     },
     "PersonalInfoManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectManagement.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
