@@ -197,3 +197,4 @@ E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonal
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Project\Projects\Create.cshtml.g.cs
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Project\Projects\Edit.cshtml.g.cs
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\MyProjects.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProjectDetails.cshtml.g.cs

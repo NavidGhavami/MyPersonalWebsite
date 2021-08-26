@@ -20,7 +20,7 @@
                 @foreach (var item in Model.Projects)
                 {
                     <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                        <a asp-page="/ProjectDetail" asp-route-id="@item.Slug" class="desc">
+                        <a asp-page="/ProjectDetails" asp-route-id="@item.Slug" class="desc">
                             <div class="project">
                                 <img src="~/Pictures/@item.FirstPicture" class="img-fluid" alt="@item.PictureAlt" title="@item.PictureTitle">
                                 <div class="desc">

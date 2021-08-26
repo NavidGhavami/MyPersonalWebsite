@@ -1,0 +1,130 @@
+﻿@page "{id}"
+@model ServiceHost.Pages.ProjectDetailsModel
+
+
+@{
+    ViewData["Title"] = "جزییات پروژه";
+}
+
+
+<div id="lonon-main">
+    <div class="lonon-projects">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">جزییات پروژه</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">@Model.ProjectDetails.Name</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                    <img class="img-fluid mb-30" src="~/Pictures/@Model.ProjectDetails.FirstPicture" alt="@Model.ProjectDetails.PictureAlt" title="@Model.ProjectDetails.PictureTitle">
+                </div>
+                <div class="col-md-6 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                    <img class="img-fluid mb-30" src="~/Pictures/@Model.ProjectDetails.SecondPicture" alt="@Model.ProjectDetails.PictureAlt" title="@Model.ProjectDetails.PictureTitle">
+                </div>
+                <div class="col-md-6 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                    <img class="img-fluid mb-30" src="~/Pictures/@Model.ProjectDetails.ThirdPicture" alt="@Model.ProjectDetails.PictureAlt" title="@Model.ProjectDetails.PictureTitle">
+                </div>
+                <div class="col-md-6 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                    <img class="img-fluid mb-30" src="~/Pictures/@Model.ProjectDetails.ForthPicture" alt="@Model.ProjectDetails.PictureAlt" title="@Model.ProjectDetails.PictureTitle">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 sticky-parent animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                    <div id="sticky_item">
+                        <div class="project-desc">
+                            <h2>@Model.ProjectDetails.Name</h2>
+                            <p>
+                                @Html.Raw(Model.ProjectDetails.Description)
+                            </p>
+
+                            <br />
+                            <br />
+
+                            <p>
+                                <div class="row">
+                                    <b class="rightPadding">
+                                        نام پروژه: &nbsp;
+                                    </b>
+                                    <b class="text-primary">
+                                        @Model.ProjectDetails.Name
+                                    </b>
+                                </div>
+                                <br />
+
+                                <div class="row">
+                                    <b class="rightPadding">
+                                        دسته بندی: &nbsp;
+                                    </b>
+                                    <b class="text-danger">
+                                        @Model.ProjectDetails.CategoryName
+                                    </b>
+                                </div>
+                                <br />
+
+                                <div class="row">
+                                    <b class="rightPadding">
+                                        نام مشتری / شرکت: &nbsp;
+                                    </b>
+                                    <b class="text-primary">
+                                        @Model.ProjectDetails.Customer
+                                    </b>
+                                </div>
+                                <br />
+
+                                <div class="row">
+                                    <b class="rightPadding">
+                                        تکنولوژی: &nbsp;
+                                    </b>
+                                    <b class="text-danger">
+                                        @Model.ProjectDetails.Technology
+                                    </b>
+                                </div>
+                                <br />
+
+                                <div class="row">
+                                    <b class="rightPadding">
+                                        آدرس سایت: &nbsp;
+                                    </b>
+                                    <b>
+                                        <a class="text-primary" href="@Model.ProjectDetails.UrlLink">
+                                            @Model.ProjectDetails.UrlLink
+                                        </a>
+                                    </b>
+                                </div>
+                                <br />
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lonon-footer2">
+        <div class="lonon-narrow-content">
+            <div class="row">
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <p class="lonon-lead">
+                        استفاده از مطالب این سایت فقط برای مقاصد غیرتجاری و با ذکر منبع
+                        بلامانع است. کلیه حقوق این سایت متعلق به نوید قوامی می‌باشد.
+                    </p>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <h2 class="text-center">
+                    </h2>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <a asp-page="/MyServices">
+                        <h2 class="text-center">
+                            خدمات و تعرفه های  <strong class="text-warning">من</strong>  را مشاهده فرمایید!
+                        </h2>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

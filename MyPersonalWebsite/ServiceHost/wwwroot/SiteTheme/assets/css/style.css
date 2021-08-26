@@ -2034,3 +2034,6 @@ a, ul, li {
 ol.comment-list li.comment .reply a {
     margin-top: -25px
 }
+.rightPadding {
+    padding-right: 25px;
+}
