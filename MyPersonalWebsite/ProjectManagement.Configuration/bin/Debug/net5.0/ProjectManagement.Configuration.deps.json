@@ -1106,7 +1106,8 @@
         "dependencies": {
           "PersonalInfoManagement.Infrastructure.EFCore": "1.0.0",
           "ProjectManagement.Domain": "1.0.0",
-          "ProjectManagement.Infrastructure.EFCore": "1.0.0"
+          "ProjectManagement.Infrastructure.EFCore": "1.0.0",
+          "ServiceManagements.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
           "01_Query.dll": {}
@@ -1183,6 +1184,33 @@
         },
         "runtime": {
           "ProjectManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "ServiceManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "ServiceManagement.Application.Contract.dll": {}
+        }
+      },
+      "ServiceManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "ServiceManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "ServiceManagement.Domain.dll": {}
+        }
+      },
+      "ServiceManagements.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "ServiceManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ServiceManagements.Infrastructure.EFCore.dll": {}
         }
       }
     }
@@ -1941,6 +1969,21 @@
       "sha512": ""
     },
     "ProjectManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceManagements.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

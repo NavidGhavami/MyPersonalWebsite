@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceManagement.Application.Contract\ServiceManagement.Application.Contract.csproj" />
+    <ProjectReference Include="..\ServiceManagement.Domain\ServiceManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

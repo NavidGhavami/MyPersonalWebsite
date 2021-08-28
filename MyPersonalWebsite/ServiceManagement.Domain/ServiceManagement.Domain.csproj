@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientsOpinion\" />
+    <Folder Include="Customers\" />
+    <Folder Include="Prices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\0_Framework\0_Framework.csproj" />
+    <ProjectReference Include="..\ServiceManagement.Application.Contract\ServiceManagement.Application.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

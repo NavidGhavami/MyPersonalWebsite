@@ -198,3 +198,17 @@ E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonal
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Project\Projects\Edit.cshtml.g.cs
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\MyProjects.cshtml.g.cs
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProjectDetails.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Pages\MyServices.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagement.Application.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagement.Configuration.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagements.Infrastructure.EFCore.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagement.Configuration.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagement.Application.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagement.Application.Contract.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagement.Domain.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\bin\Debug\net5.0\ServiceManagements.Infrastructure.EFCore.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Services\Service\Create.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Services\Service\Edit.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Services\Service\Index.cshtml.g.cs

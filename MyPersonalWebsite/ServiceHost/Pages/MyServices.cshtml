@@ -1,0 +1,179 @@
+﻿@page
+@model ServiceHost.Pages.MyServicesModel
+
+@{
+    ViewData["Title"] = "سرویس ها و تعرفه های من";
+}
+<div id="lonon-main">
+    <div class="lonon-services">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">ما چه میکنیم؟</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">خدمات ما</h2>
+                </div>
+            </div>
+            <div class="row">
+             @foreach (var item in Model.Services)
+             {
+                 <div class="col-md-4">
+                     <div class="lonon-feature animate-box" data-animate-effect="fadeInLeft">
+                         <div class="lonon-icon">
+                             <span class="@item.ServiceLogo font-35px"></span>
+                         </div>
+                         <div class="lonon-text">
+                             <h3>@item.ServiceName</h3>
+                             <p>
+                                 @item.ServiceDescription
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             }
+            </div>
+        </div>
+    </div>
+    <div class="divider1"></div>
+
+    <div class="lonon-pricing">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">قیمت گذاری</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">قیمت های من</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 price-table">
+                    <div class="price-box animate-box" data-animate-effect="fadeInLeft">
+                        <h5><strong>پلن اول</strong></h5>
+                        <h1 class="bold price-price"><sup></sup> <span>29تومان</span></h1>
+                        <div class="price-features">
+                            <p>لورم ایپسوم متن</p>
+                            <p>لورم ایپسوم متن</p>
+                            <p><i class="icon ti-close"></i></p>
+                            <p><i class="icon ti-close"></i></p>
+                        </div>
+                        <input type="submit" class="btn btn-contact" value="سفارش">
+                    </div>
+                </div>
+                <div class="col-md-4 price-table-featured">
+                    <div class="price-box center animate-box" data-animate-effect="fadeInLeft">
+                        <h5><strong>پلن دوم</strong></h5>
+                        <h1 class="bold price-price"> <sup></sup> <span>39تومان</span> </h1>
+                        <div class="price-features">
+                            <p>لورم ایپسوم متن</p>
+                            <p>لورم ایپسوم متن</p>
+                            <p>لورم ایپسوم متن</p>
+                            <p>لورم ایپسوم متن</p>
+                        </div>
+                        <input type="submit" class="btn btn-contact" value="سفارش">
+                    </div>
+                </div>
+                <div class="col-md-4 price-table">
+                    <div class="price-box animate-box" data-animate-effect="fadeInLeft">
+                        <h5><strong>پلن سوم</strong></h5>
+                        <h1 class="bold price-price"> <sup></sup> <span>59تومان</span> </h1>
+                        <div class="price-features">
+                            <p>لورم ایپسوم متن</p>
+                            <p>لورم ایپسوم متن</p>
+                            <p>لورم ایپسوم متن</p>
+                        </div>
+                        <input type="submit" class="btn btn-contact" value="سفارش">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider1"></div>
+
+    <div class="lonon-testiominal">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">مشتریان&nbsp;</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">نظرات مشتریان من</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="lonon-quote-card">
+                        <img src="~/SiteTheme/assets/images/quote.png" alt="" class="lonon-quote-2">
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                        <h5><strong>احمد شیرازی</strong></h5>
+                        <p class="occupation">مدیر پروژه</p>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="lonon-quote-card">
+                        <img src="~/SiteTheme/assets/images/quote.png" alt="quote" class="lonon-quote-2">
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                        <h5>سمیرا حسینی</h5>
+                        <p class="occupation">برنامه نویس</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider1"></div>
+
+    <div class="lonon-clients">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">سوابق</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">مشتریان من</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="clients">
+                        <img src="~/SiteTheme/assets/images/clients/c1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="clients">
+                        <img src="~/SiteTheme/assets/images/clients/c2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="clients">
+                        <img src="~/SiteTheme/assets/images/clients/c3.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="clients">
+                        <img src="~/SiteTheme/assets/images/clients/c4.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lonon-footer2">
+        <div class="lonon-narrow-content">
+            <div class="row">
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <p class="lonon-lead">
+                        استفاده از مطالب این سایت فقط برای مقاصد غیرتجاری و با ذکر منبع
+                        بلامانع است. کلیه حقوق این سایت متعلق به نوید قوامی می‌باشد.
+                    </p>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <h2 class="text-center">
+                    </h2>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <a asp-page="/MyProjects">
+                        <h2 class="text-center">
+                            نمونه کارها و پروژه های  <strong class="text-warning">من</strong>  را مشاهده فرمایید؟!
+                        </h2>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

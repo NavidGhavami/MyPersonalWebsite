@@ -1,0 +1,15 @@
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\bin\Debug\net5.0\ServiceManagement.Application.Contract.deps.json
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\bin\Debug\net5.0\ServiceManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\bin\Debug\net5.0\ref\ServiceManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\bin\Debug\net5.0\ServiceManagement.Application.Contract.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\obj\Debug\net5.0\ServiceManagement.Application.Contract.csproj.AssemblyReference.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\obj\Debug\net5.0\ServiceManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\obj\Debug\net5.0\ServiceManagement.Application.Contract.AssemblyInfoInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\obj\Debug\net5.0\ServiceManagement.Application.Contract.AssemblyInfo.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\obj\Debug\net5.0\ServiceManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\obj\Debug\net5.0\ServiceManagement.Application.Contract.csproj.CopyComplete
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\obj\Debug\net5.0\ServiceManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\obj\Debug\net5.0\ref\ServiceManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Application.Contract\obj\Debug\net5.0\ServiceManagement.Application.Contract.pdb

@@ -35,15 +35,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PM.Domain", "PM.Domain", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PM.Infrastructure", "PM.Infrastructure", "{F65528AE-D0C8-48C6-BF5F-735A6C552D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagement.Domain", "ProjectManagement.Domain\ProjectManagement.Domain.csproj", "{B6ED044A-B8D0-4164-9C27-059ABB6ABECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagement.Domain", "ProjectManagement.Domain\ProjectManagement.Domain.csproj", "{B6ED044A-B8D0-4164-9C27-059ABB6ABECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagement.Application.Contract", "ProjectManagement.Application.Contract\ProjectManagement.Application.Contract.csproj", "{2815304B-967D-49C4-822D-3BF70D2A12BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagement.Application.Contract", "ProjectManagement.Application.Contract\ProjectManagement.Application.Contract.csproj", "{2815304B-967D-49C4-822D-3BF70D2A12BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagement.Application", "ProjectManagement.Application\ProjectManagement.Application.csproj", "{0FABEFD1-0BF9-4DE6-BB53-CBC604595F07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagement.Application", "ProjectManagement.Application\ProjectManagement.Application.csproj", "{0FABEFD1-0BF9-4DE6-BB53-CBC604595F07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagement.Infrastructure.EFCore", "ProjectManagement.Infrastructure.EFCore\ProjectManagement.Infrastructure.EFCore.csproj", "{D6065CB1-8ED2-4FD1-9DE4-13C7C5C3FDFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagement.Infrastructure.EFCore", "ProjectManagement.Infrastructure.EFCore\ProjectManagement.Infrastructure.EFCore.csproj", "{D6065CB1-8ED2-4FD1-9DE4-13C7C5C3FDFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagement.Configuration", "ProjectManagement.Configuration\ProjectManagement.Configuration.csproj", "{91B6AEB8-D9D2-4E6D-9710-E44B9685620D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagement.Configuration", "ProjectManagement.Configuration\ProjectManagement.Configuration.csproj", "{91B6AEB8-D9D2-4E6D-9710-E44B9685620D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServicesManagement", "ServicesManagement", "{CBF89B5D-8FCA-4164-B602-6721B56CDA4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Application", "SM.Application", "{7BD32302-804E-4BB5-8684-51DFCF526261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Domain", "SM.Domain", "{175D2E5B-41B9-45A9-AA0C-F88B1DF9EBD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Infrastructure", "SM.Infrastructure", "{C78AA4FA-1487-4FA1-9309-284A633902FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManagement.Domain", "ServiceManagement.Domain\ServiceManagement.Domain.csproj", "{16CD8B97-F9B5-4183-A4AB-01C476E728CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManagement.Application.Contract", "ServiceManagement.Application.Contract\ServiceManagement.Application.Contract.csproj", "{FC684601-9C26-4792-A075-AEC49347BCCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManagement.Application", "ServiceManagement.Application\ServiceManagement.Application.csproj", "{D60D0ABF-83F9-4C7E-A047-F3C808A0FA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManagements.Infrastructure.EFCore", "ServiceManagements.Infrastructure.EFCore\ServiceManagements.Infrastructure.EFCore.csproj", "{17999ABD-FA05-44A8-8965-470D3CB9A847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManagement.Configuration", "ServiceManagement.Configuration\ServiceManagement.Configuration.csproj", "{5709F9E4-8AA1-4476-BA2E-EC8663E21E28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +121,26 @@ Global
 		{91B6AEB8-D9D2-4E6D-9710-E44B9685620D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91B6AEB8-D9D2-4E6D-9710-E44B9685620D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91B6AEB8-D9D2-4E6D-9710-E44B9685620D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CD8B97-F9B5-4183-A4AB-01C476E728CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CD8B97-F9B5-4183-A4AB-01C476E728CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CD8B97-F9B5-4183-A4AB-01C476E728CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CD8B97-F9B5-4183-A4AB-01C476E728CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC684601-9C26-4792-A075-AEC49347BCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC684601-9C26-4792-A075-AEC49347BCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC684601-9C26-4792-A075-AEC49347BCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC684601-9C26-4792-A075-AEC49347BCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60D0ABF-83F9-4C7E-A047-F3C808A0FA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60D0ABF-83F9-4C7E-A047-F3C808A0FA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60D0ABF-83F9-4C7E-A047-F3C808A0FA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60D0ABF-83F9-4C7E-A047-F3C808A0FA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17999ABD-FA05-44A8-8965-470D3CB9A847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17999ABD-FA05-44A8-8965-470D3CB9A847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17999ABD-FA05-44A8-8965-470D3CB9A847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17999ABD-FA05-44A8-8965-470D3CB9A847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5709F9E4-8AA1-4476-BA2E-EC8663E21E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5709F9E4-8AA1-4476-BA2E-EC8663E21E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5709F9E4-8AA1-4476-BA2E-EC8663E21E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5709F9E4-8AA1-4476-BA2E-EC8663E21E28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,6 +162,14 @@ Global
 		{0FABEFD1-0BF9-4DE6-BB53-CBC604595F07} = {EA4B4BD9-55DA-497E-833D-717E56EDE889}
 		{D6065CB1-8ED2-4FD1-9DE4-13C7C5C3FDFC} = {F65528AE-D0C8-48C6-BF5F-735A6C552D21}
 		{91B6AEB8-D9D2-4E6D-9710-E44B9685620D} = {F65528AE-D0C8-48C6-BF5F-735A6C552D21}
+		{7BD32302-804E-4BB5-8684-51DFCF526261} = {CBF89B5D-8FCA-4164-B602-6721B56CDA4C}
+		{175D2E5B-41B9-45A9-AA0C-F88B1DF9EBD6} = {CBF89B5D-8FCA-4164-B602-6721B56CDA4C}
+		{C78AA4FA-1487-4FA1-9309-284A633902FC} = {CBF89B5D-8FCA-4164-B602-6721B56CDA4C}
+		{16CD8B97-F9B5-4183-A4AB-01C476E728CB} = {175D2E5B-41B9-45A9-AA0C-F88B1DF9EBD6}
+		{FC684601-9C26-4792-A075-AEC49347BCCE} = {7BD32302-804E-4BB5-8684-51DFCF526261}
+		{D60D0ABF-83F9-4C7E-A047-F3C808A0FA7A} = {7BD32302-804E-4BB5-8684-51DFCF526261}
+		{17999ABD-FA05-44A8-8965-470D3CB9A847} = {C78AA4FA-1487-4FA1-9309-284A633902FC}
+		{5709F9E4-8AA1-4476-BA2E-EC8663E21E28} = {C78AA4FA-1487-4FA1-9309-284A633902FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA8A76CB-F1D2-43B7-B5BF-9F1391CAF4A1}

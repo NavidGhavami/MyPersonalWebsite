@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using PersonalInfoManagement.Configuration;
 using ProjectManagement.Configuration;
 using ServiceHost.Services;
+using ServiceManagement.Configuration;
 
 namespace ServiceHost
 {
@@ -32,6 +33,7 @@ namespace ServiceHost
 
             PersonalInformationBootstrapper.Configure(services, connectionString);
             ProjectBootstrapper.Configure(services, connectionString);
+            ServiceBootstrapper.Configure(services, connectionString);
 
 
 

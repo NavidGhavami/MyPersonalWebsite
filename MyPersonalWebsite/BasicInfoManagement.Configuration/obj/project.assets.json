@@ -1569,7 +1569,8 @@
         "dependencies": {
           "PersonalInfoManagement.Infrastructure.EFCore": "1.0.0",
           "ProjectManagement.Domain": "1.0.0",
-          "ProjectManagement.Infrastructure.EFCore": "1.0.0"
+          "ProjectManagement.Infrastructure.EFCore": "1.0.0",
+          "ServiceManagements.Infrastructure.EFCore": "1.0.0"
         },
         "compile": {
           "bin/placeholder/01_Query.dll": {}
@@ -1689,6 +1690,48 @@
         },
         "runtime": {
           "bin/placeholder/ProjectManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "ServiceManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceManagement.Application.Contract.dll": {}
+        }
+      },
+      "ServiceManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "ServiceManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceManagement.Domain.dll": {}
+        }
+      },
+      "ServiceManagements.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "ServiceManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceManagements.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceManagements.Infrastructure.EFCore.dll": {}
         }
       }
     }
@@ -6060,6 +6103,21 @@
       "type": "project",
       "path": "../ProjectManagement.Infrastructure.EFCore/ProjectManagement.Infrastructure.EFCore.csproj",
       "msbuildProject": "../ProjectManagement.Infrastructure.EFCore/ProjectManagement.Infrastructure.EFCore.csproj"
+    },
+    "ServiceManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../ServiceManagement.Application.Contract/ServiceManagement.Application.Contract.csproj",
+      "msbuildProject": "../ServiceManagement.Application.Contract/ServiceManagement.Application.Contract.csproj"
+    },
+    "ServiceManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ServiceManagement.Domain/ServiceManagement.Domain.csproj",
+      "msbuildProject": "../ServiceManagement.Domain/ServiceManagement.Domain.csproj"
+    },
+    "ServiceManagements.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../ServiceManagements.Infrastructure.EFCore/ServiceManagements.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../ServiceManagements.Infrastructure.EFCore/ServiceManagements.Infrastructure.EFCore.csproj"
     }
   },
   "projectFileDependencyGroups": {

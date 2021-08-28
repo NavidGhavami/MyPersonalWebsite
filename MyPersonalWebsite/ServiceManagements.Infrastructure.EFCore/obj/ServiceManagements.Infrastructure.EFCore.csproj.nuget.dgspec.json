@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagements.Infrastructure.EFCore\\ServiceManagements.Infrastructure.EFCore.csproj": {}
+  },
+  "projects": {
+    "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\0_Framework\\0_Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\0_Framework\\0_Framework.csproj",
+        "projectName": "0_Framework",
+        "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\0_Framework\\0_Framework.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\0_Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Application.Contract\\ServiceManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Application.Contract\\ServiceManagement.Application.Contract.csproj",
+        "projectName": "ServiceManagement.Application.Contract",
+        "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Application.Contract\\ServiceManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\0_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Domain\\ServiceManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Domain\\ServiceManagement.Domain.csproj",
+        "projectName": "ServiceManagement.Domain",
+        "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Domain\\ServiceManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Application.Contract\\ServiceManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Application.Contract\\ServiceManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagements.Infrastructure.EFCore\\ServiceManagements.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagements.Infrastructure.EFCore\\ServiceManagements.Infrastructure.EFCore.csproj",
+        "projectName": "ServiceManagements.Infrastructure.EFCore",
+        "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagements.Infrastructure.EFCore\\ServiceManagements.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagements.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Domain\\ServiceManagement.Domain.csproj": {
+                "projectPath": "E:\\Programming\\Codes and projects\\My Personal Website (Navid Ghavami)\\MyPersonalWebsite\\ServiceManagement.Domain\\ServiceManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

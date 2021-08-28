@@ -38,6 +38,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "PersonalInfoManagement.Configuration": "1.0.0",
           "ProjectManagement.Configuration": "1.0.0",
+          "ServiceManagement.Configuration": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -1842,7 +1843,8 @@
         "dependencies": {
           "PersonalInfoManagement.Infrastructure.EFCore": "1.0.0",
           "ProjectManagement.Domain": "1.0.0",
-          "ProjectManagement.Infrastructure.EFCore": "1.0.0"
+          "ProjectManagement.Infrastructure.EFCore": "1.0.0",
+          "ServiceManagements.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
           "01_Query.dll": {}
@@ -1987,6 +1989,69 @@
         },
         "compile": {
           "ProjectManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "ServiceManagement.Application/1.0.0": {
+        "dependencies": {
+          "ServiceManagement.Application.Contract": "1.0.0",
+          "ServiceManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ServiceManagement.Application.dll": {}
+        },
+        "compile": {
+          "ServiceManagement.Application.dll": {}
+        }
+      },
+      "ServiceManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "ServiceManagement.Application.Contract.dll": {}
+        },
+        "compile": {
+          "ServiceManagement.Application.Contract.dll": {}
+        }
+      },
+      "ServiceManagement.Configuration/1.0.0": {
+        "dependencies": {
+          "01_Query": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "ServiceManagement.Application": "1.0.0",
+          "ServiceManagement.Domain": "1.0.0",
+          "ServiceManagements.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "ServiceManagement.Configuration.dll": {}
+        },
+        "compile": {
+          "ServiceManagement.Configuration.dll": {}
+        }
+      },
+      "ServiceManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "ServiceManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "ServiceManagement.Domain.dll": {}
+        },
+        "compile": {
+          "ServiceManagement.Domain.dll": {}
+        }
+      },
+      "ServiceManagements.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "ServiceManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ServiceManagements.Infrastructure.EFCore.dll": {}
+        },
+        "compile": {
+          "ServiceManagements.Infrastructure.EFCore.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4642,6 +4707,31 @@
       "sha512": ""
     },
     "ProjectManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceManagement.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceManagements.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
