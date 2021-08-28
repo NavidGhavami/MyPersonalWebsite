@@ -36,7 +36,7 @@ namespace _01_Query.Query
                     Slug = x.Slug,
                     UrlLink = x.UrlLink,
 
-                }).OrderByDescending(x=>x.Id).ToList();
+                }).ToList();
         }
 
         public ProjectQueryModel GetProjectDetails(string slug)
