@@ -39,80 +39,67 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <span class="heading-meta style-1">قیمت گذاری</span>
-                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">قیمت های من</h2>
+                    <span class="heading-meta style-1">تعرفه پلن ها</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">قیمت پلن های من</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 price-table">
-                    <div class="price-box animate-box" data-animate-effect="fadeInLeft">
-                        <h5><strong>پلن اول</strong></h5>
-                        <h1 class="bold price-price"><sup></sup> <span>29تومان</span></h1>
-                        <div class="price-features">
-                            <p>لورم ایپسوم متن</p>
-                            <p>لورم ایپسوم متن</p>
-                            <p><i class="icon ti-close"></i></p>
-                            <p><i class="icon ti-close"></i></p>
+                @foreach (var item in Model.Plans)
+                {
+                    <div class="col-md-6 price-table">
+                        <div class="price-box animate-box" data-animate-effect="fadeInLeft">
+                            <h4><strong>@item.PlanName</strong></h4>
+                            <h1 class="bold price-price"><sup></sup> <span class="text-danger">@item.PlanPrice</span></h1>
+                            <div class="price-features">
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription1
+                                </p>
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription2
+                                </p>
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription3
+                                </p>
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription4
+                                </p>
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription5
+                                </p>
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription6
+                                </p>
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription7
+                                </p>
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription8
+                                </p>
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription9
+                                </p>
+                                <p class="text-justify">
+                                    <strong class="text-danger">*</strong>
+                                    @item.PlanDescription10
+                                </p>
+                            </div>
+                            <br />
+                            <a class="btn btn-success btn-rounded" asp-page="/ContactMe">
+                                جهت مشاوره و سفارش پلن تماس بگیرید
+                            </a>
                         </div>
-                        <input type="submit" class="btn btn-contact" value="سفارش">
                     </div>
-                </div>
-                <div class="col-md-4 price-table-featured">
-                    <div class="price-box center animate-box" data-animate-effect="fadeInLeft">
-                        <h5><strong>پلن دوم</strong></h5>
-                        <h1 class="bold price-price"> <sup></sup> <span>39تومان</span> </h1>
-                        <div class="price-features">
-                            <p>لورم ایپسوم متن</p>
-                            <p>لورم ایپسوم متن</p>
-                            <p>لورم ایپسوم متن</p>
-                            <p>لورم ایپسوم متن</p>
-                        </div>
-                        <input type="submit" class="btn btn-contact" value="سفارش">
-                    </div>
-                </div>
-                <div class="col-md-4 price-table">
-                    <div class="price-box animate-box" data-animate-effect="fadeInLeft">
-                        <h5><strong>پلن سوم</strong></h5>
-                        <h1 class="bold price-price"> <sup></sup> <span>59تومان</span> </h1>
-                        <div class="price-features">
-                            <p>لورم ایپسوم متن</p>
-                            <p>لورم ایپسوم متن</p>
-                            <p>لورم ایپسوم متن</p>
-                        </div>
-                        <input type="submit" class="btn btn-contact" value="سفارش">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                }
 
-    <div class="divider1"></div>
-
-    <div class="lonon-testiominal">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <span class="heading-meta style-1">مشتریان&nbsp;</span>
-                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">نظرات مشتریان من</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="lonon-quote-card">
-                        <img src="~/SiteTheme/assets/images/quote.png" alt="" class="lonon-quote-2">
-                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
-                        <h5><strong>احمد شیرازی</strong></h5>
-                        <p class="occupation">مدیر پروژه</p>
-                    </div>
-                </div>
-                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="lonon-quote-card">
-                        <img src="~/SiteTheme/assets/images/quote.png" alt="quote" class="lonon-quote-2">
-                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
-                        <h5>سمیرا حسینی</h5>
-                        <p class="occupation">برنامه نویس</p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -151,6 +138,37 @@
             </div>
         </div>
     </div>
+    
+    <div class="divider1"></div>
+
+    <div class="lonon-testiominal">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">مشتریان&nbsp;</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">نظرات مشتریان من</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="lonon-quote-card">
+                        <img src="~/SiteTheme/assets/images/quote.png" alt="" class="lonon-quote-2">
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                        <h5><strong>احمد شیرازی</strong></h5>
+                        <p class="occupation">مدیر پروژه</p>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="lonon-quote-card">
+                        <img src="~/SiteTheme/assets/images/quote.png" alt="quote" class="lonon-quote-2">
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                        <h5>سمیرا حسینی</h5>
+                        <p class="occupation">برنامه نویس</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="lonon-footer2">
         <div class="lonon-narrow-content">
             <div class="row">
@@ -165,9 +183,9 @@
                     </h2>
                 </div>
                 <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                    <a asp-page="/MyProjects">
+                    <a asp-page="/ArticleCategory">
                         <h2 class="text-center">
-                            نمونه کارها و پروژه های  <strong class="text-warning">من</strong>  را مشاهده فرمایید؟!
+                            مقالات روز دنیای برنامه نویسی و کامپیوتر  <strong class="text-warning">برنامه نویسی و کامپیوتر</strong>  را مشاهده فرمایید؟!
                         </h2>
                     </a>
 

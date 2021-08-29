@@ -212,3 +212,6 @@ E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonal
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Services\Service\Create.cshtml.g.cs
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Services\Service\Edit.cshtml.g.cs
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Services\Service\Index.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Services\Plans\Create.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Services\Plans\Edit.cshtml.g.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Services\Plans\Index.cshtml.g.cs

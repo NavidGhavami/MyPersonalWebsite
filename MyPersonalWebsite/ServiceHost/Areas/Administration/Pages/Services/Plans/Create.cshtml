@@ -1,0 +1,118 @@
+﻿@model ServiceManagement.Application.Contract.Plans.CreatePlans
+
+
+@{
+}
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h4 class="modal-title">ایجاد پلن جدید</h4>
+</div>
+
+<form asp-page="./Index" asp-page-handler="Create"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="PlanName" class="control-label">نام پلن</label>
+                    <input type="text" class="form-control" asp-for="PlanName">
+                    <span asp-validation-for="PlanName" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="PlanPrice" class="control-label">قیمت پلن</label>
+                    <input type="text" class="form-control" asp-for="PlanPrice">
+                    <span asp-validation-for="PlanPrice" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PlanDescription1" class="control-label">ویژگی 1</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription1">
+                    <span asp-validation-for="PlanDescription1" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PlanDescription2" class="control-label">ویژگی 2</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription2">
+                    <span asp-validation-for="PlanDescription2" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PlanDescription3" class="control-label">ویژگی 3</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription3">
+                    <span asp-validation-for="PlanDescription3" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PlanDescription4" class="control-label">ویژگی 4</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription4">
+                    <span asp-validation-for="PlanDescription4" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PlanDescription5" class="control-label">ویژگی 5</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription5">
+                    <span asp-validation-for="PlanDescription5" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PlanDescription6" class="control-label">ویژگی 6</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription6">
+                    <span asp-validation-for="PlanDescription6" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PlanDescription7" class="control-label">ویژگی 7</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription7">
+                    <span asp-validation-for="PlanDescription7" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PlanDescription8" class="control-label">ویژگی 8</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription8">
+                    <span asp-validation-for="PlanDescription8" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="PlanDescription9" class="control-label">ویژگی 9</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription9">
+                    <span asp-validation-for="PlanDescription9" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="PlanDescription10" class="control-label">ویژگی 10</label>
+                    <input type="text" class="form-control" asp-for="PlanDescription10">
+                    <span asp-validation-for="PlanDescription10" class="error"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+        <button type="submit" class="btn btn-info waves-effect waves-light">ایجاد پلن</button>
+    </div>
+</form>

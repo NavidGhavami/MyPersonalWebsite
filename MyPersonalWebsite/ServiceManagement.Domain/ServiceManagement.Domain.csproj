@@ -7,7 +7,6 @@
   <ItemGroup>
     <Folder Include="ClientsOpinion\" />
     <Folder Include="Customers\" />
-    <Folder Include="Prices\" />
   </ItemGroup>
 
   <ItemGroup>
