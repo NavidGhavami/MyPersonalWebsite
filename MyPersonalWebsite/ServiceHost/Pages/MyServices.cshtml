@@ -110,31 +110,20 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <span class="heading-meta style-1">سوابق</span>
+                    <span class="heading-meta style-1">همکاری با مشتریان</span>
                     <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">مشتریان من</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="clients">
-                        <img src="~/SiteTheme/assets/images/clients/c1.png" class="img-fluid" alt="">
+                @foreach (var item in Model.Customers)
+                {
+                    <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="clients">
+                            <img src="~/Pictures/@item.CustomerLogo" class="img-fluid" alt="@item.LogoAlt" title="@item.LogoTitle">
+                            <p class="text-justify text-center topPadding"> @item.CustomerName</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="clients">
-                        <img src="~/SiteTheme/assets/images/clients/c2.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="clients">
-                        <img src="~/SiteTheme/assets/images/clients/c3.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="clients">
-                        <img src="~/SiteTheme/assets/images/clients/c4.png" class="img-fluid" alt="">
-                    </div>
-                </div>
+                }
             </div>
         </div>
     </div>

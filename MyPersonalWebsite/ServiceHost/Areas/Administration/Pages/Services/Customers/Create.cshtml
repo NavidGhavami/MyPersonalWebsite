@@ -1,0 +1,56 @@
+﻿@model ServiceManagement.Application.Contract.Customers.CreateCustomers
+
+
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h4 class="modal-title">ایجاد مشتری جدید</h4>
+</div>
+
+<form asp-page="./Index" asp-page-handler="Create"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="CustomerName" class="control-label">نام مشتری</label>
+                    <input type="text" class="form-control" asp-for="CustomerName">
+                    <span asp-validation-for="CustomerName" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="LogoAlt" class="control-label">Alt</label>
+                    <input type="text" class="form-control" asp-for="LogoAlt">
+                    <span asp-validation-for="LogoAlt" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="LogoTitle" class="control-label">عنوان تصویر</label>
+                    <input type="text" class="form-control" asp-for="LogoTitle">
+                    <span asp-validation-for="LogoTitle" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="CustomerLogo" class="control-label">تصویر لوگو</label>
+                    <input type="file" class="form-control" asp-for="CustomerLogo">
+                    <span asp-validation-for="CustomerLogo" class="error"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+        <button type="submit" class="btn btn-info waves-effect waves-light">ایجاد مشتری</button>
+    </div>
+</form>

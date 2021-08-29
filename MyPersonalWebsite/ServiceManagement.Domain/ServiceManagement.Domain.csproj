@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="ClientsOpinion\" />
-    <Folder Include="Customers\" />
   </ItemGroup>
 
   <ItemGroup>
