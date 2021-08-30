@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "01_Query/1.0.0": {
         "dependencies": {
+          "BlogManagement.Infrastructure.EFCore": "1.0.0",
           "PersonalInfoManagement.Infrastructure.EFCore": "1.0.0",
           "ProjectManagement.Domain": "1.0.0",
           "ProjectManagement.Infrastructure.EFCore": "1.0.0",
@@ -1111,6 +1112,33 @@
           "0_Framework.dll": {}
         }
       },
+      "BlogManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "BlogManegement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "BlogManagement.Domain.dll": {}
+        }
+      },
+      "BlogManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "BlogManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9"
+        },
+        "runtime": {
+          "BlogManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "BlogManegement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "BlogManegement.Application.Contract.dll": {}
+        }
+      },
       "PersonalInfo.Domain/1.0.0": {
         "dependencies": {
           "0_Framework": "1.0.0",
@@ -1909,6 +1937,21 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "0_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManegement.Application.Contract/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

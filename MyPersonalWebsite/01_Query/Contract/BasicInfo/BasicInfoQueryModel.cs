@@ -15,6 +15,7 @@
         public string Experience { get; set; }
         public string CompleteProject { get; set; }
         public string HappyCustomers { get; set; }
+        public int ArticleCount { get; set; }
         public string Articles { get; set; }
     }
 }

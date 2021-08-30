@@ -1,7 +1,4 @@
-﻿using System.IO;
-using _01_Query.Contract;
-using _01_Query.Contract.BasicInfo;
-using Microsoft.AspNetCore.Hosting;
+﻿using _01_Query.Contract.BasicInfo;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ServiceHost.ViewComponents

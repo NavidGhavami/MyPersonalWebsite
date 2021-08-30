@@ -35,3 +35,9 @@ E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonal
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\ServiceManagement.Application.Contract.pdb
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\ServiceManagement.Domain.pdb
 E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\ServiceManagements.Infrastructure.EFCore.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\BlogManegement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ProjectManagement.Configuration\bin\Debug\net5.0\BlogManegement.Application.Contract.pdb

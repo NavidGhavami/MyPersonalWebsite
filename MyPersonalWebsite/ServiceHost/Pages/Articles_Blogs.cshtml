@@ -1,0 +1,85 @@
+﻿@page
+@model ServiceHost.Pages.Articles_BlogsModel
+
+@{
+    ViewData["Title"] = "مقالات و بلاگ ها";
+}
+
+<div id="lonon-main">
+
+    <div class="lonon-blog">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">گروه مقالات</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">مقالات من</h2>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var item in Model.ArticleCategories)
+                {
+                    <div class="col-md-6 col-sm-6">
+                        <div class="blog-entry animate-box" data-animate-effect="fadeInLeft">
+                            <a asp-page="/ArticleCategory" asp-route-id="@item.Slug" class="blog-img">
+                                <img src="~/Pictures/@item.Picture" class="img-fluid" alt="@item.PictureAlt" title="@item.PictureTitle">
+                            </a>
+                            <div class="desc">
+                                <h3><a asp-page="/ArticleCategory" asp-route-id="@item.Slug">@item.Name</a></h3>
+                                <p>
+                                    @item.ShortDescription
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+
+                    <ul class="lonon-pagination-wrap align-center">
+                        <li>
+                            <a href="#"><i class="ti-arrow-right"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ti-arrow-left"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lonon-footer2">
+        <div class="lonon-narrow-content">
+            <div class="row">
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <p class="lonon-lead text-justify">
+                        استفاده از مطالب این سایت فقط برای مقاصد غیرتجاری و با ذکر منبع
+                        بلامانع است. کلیه حقوق این سایت متعلق به نوید قوامی می‌باشد.
+                    </p>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <h2 class="text-center">
+                    </h2>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <a asp-page="/MyResume">
+                        <h2 class="text-center">
+                            درباره <strong class="text-warning">من</strong> بیشتر بدانید؟!
+                        </h2>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

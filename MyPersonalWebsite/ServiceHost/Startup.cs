@@ -1,6 +1,7 @@
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _0_Framework.Application;
+using BlogManagement.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -32,6 +33,7 @@ namespace ServiceHost
 
 
             PersonalInformationBootstrapper.Configure(services, connectionString);
+            BlogManagementBootstrapper.Configure(services, connectionString);
             ProjectBootstrapper.Configure(services, connectionString);
             ServiceBootstrapper.Configure(services, connectionString);
 

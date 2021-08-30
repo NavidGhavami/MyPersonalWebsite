@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using _01_Query.Contract;
+﻿using System.Linq;
 using _01_Query.Contract.BasicInfo;
+using BlogManagement.Infrastructure.EFCore;
 using PersonalInfoManagement.Infrastructure.EFCore;
 
 namespace _01_Query.Query
@@ -9,14 +8,18 @@ namespace _01_Query.Query
     public class BasicInfoQuery : IBasicInfoQuery
     {
         private readonly PersonalInfoContext _personalInfoContext;
+        private readonly BlogContext _blogContext;
 
-        public BasicInfoQuery(PersonalInfoContext personalInfoContext)
+        public BasicInfoQuery(PersonalInfoContext personalInfoContext, BlogContext blogContext)
         {
             _personalInfoContext = personalInfoContext;
+            _blogContext = blogContext;
         }
 
         public BasicInfoQueryModel GetBasicInformation()
         {
+            var articleCount = _blogContext.Articles.Count();
+
            return  _personalInfoContext.BasicInformations.Select(x=> new BasicInfoQueryModel
             {
                 Name = x.Name,
@@ -32,9 +35,11 @@ namespace _01_Query.Query
                 Experience = x.Experience,
                 CompleteProject = x.CompleteProject,
                 HappyCustomers = x.HappyCustomers,
-                Articles = x.Articles
+                Articles = x.Articles,
+                ArticleCount = articleCount
 
-            }).First();
+
+           }).First();
 
            
         }
@@ -74,5 +79,6 @@ namespace _01_Query.Query
 
             return recommendationLetter.RecommendationLetters;
         }
+
     }
 }

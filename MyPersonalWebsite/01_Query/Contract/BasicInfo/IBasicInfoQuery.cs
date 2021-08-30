@@ -1,4 +1,6 @@
-﻿namespace _01_Query.Contract.BasicInfo
+﻿using _01_Query.Contract.ArticleCategory;
+
+namespace _01_Query.Contract.BasicInfo
 {
     public interface IBasicInfoQuery
     {

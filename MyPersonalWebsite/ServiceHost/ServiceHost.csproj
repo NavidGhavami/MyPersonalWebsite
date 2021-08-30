@@ -5,8 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Areas\Administration\Pages\Blog\ArticleCategory\Edit.cshtml~RFe0b2dc8.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\01_Query\01_Query.csproj" />
     <ProjectReference Include="..\BasicInfoManagement.Configuration\PersonalInfoManagement.Configuration.csproj" />
+    <ProjectReference Include="..\BlogManagement.Configuration\BlogManagement.Configuration.csproj" />
     <ProjectReference Include="..\ProjectManagement.Configuration\ProjectManagement.Configuration.csproj" />
     <ProjectReference Include="..\ServiceManagement.Configuration\ServiceManagement.Configuration.csproj" />
   </ItemGroup>

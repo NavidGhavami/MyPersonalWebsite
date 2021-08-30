@@ -1,0 +1,56 @@
+﻿@page "{id}"
+@model ServiceHost.Pages.ArticleDetailsModel
+
+@{
+    ViewData["Title"] = "جزییات مقاله";
+}
+
+<div id="lonon-main">
+    <div class="lonon-projects">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">نویسنده : نوید قوامی | تاریخ انتشار: @Model.Article.PublishDate</span>
+                    <h2 class="lonon-post-heading animate-box" data-animate-effect="fadeInLeft">@Model.Article.Title</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                    <img src="~/Pictures/@Model.Article.Picture" class="img-fluid mb-30" alt="@Model.Article.PictureAlt" title="@Model.Article.PictureTitle">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                    <p>
+                        @Html.Raw(Model.Article.Description)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lonon-footer2">
+        <div class="lonon-narrow-content">
+            <div class="row">
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <p class="lonon-lead text-justify">
+                        استفاده از مطالب این سایت فقط برای مقاصد غیرتجاری و با ذکر منبع
+                        بلامانع است. کلیه حقوق این سایت متعلق به نوید قوامی می‌باشد.
+                    </p>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <h2 class="text-center">
+                    </h2>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <a asp-page="/MyResume">
+                        <h2 class="text-center">
+                            درباره <strong class="text-warning">من</strong> بیشتر بدانید؟!
+                        </h2>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
