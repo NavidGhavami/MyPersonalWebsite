@@ -7,10 +7,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ServiceManagement.Application;
 using ServiceManagement.Application.Contract.ClientsOpinion;
+using ServiceManagement.Application.Contract.ContactMe;
 using ServiceManagement.Application.Contract.Customers;
 using ServiceManagement.Application.Contract.Plans;
 using ServiceManagement.Application.Contract.Services;
 using ServiceManagement.Domain.ClientsOpinion;
+using ServiceManagement.Domain.ContactMe;
 using ServiceManagement.Domain.Customers;
 using ServiceManagement.Domain.Plans;
 using ServiceManagement.Domain.Services;
@@ -35,6 +37,9 @@ namespace ServiceManagement.Configuration
 
             services.AddTransient<IClientsOpinionApplication, ClientsOpinionApplication>();
             services.AddTransient<IClientsOpinionRepository, ClientsOpinionRepository>();
+
+            services.AddTransient<IContactMeApplication, ContactMeApplication>();
+            services.AddTransient<IContactMeRepository, ContactMeRepository>();
 
 
 

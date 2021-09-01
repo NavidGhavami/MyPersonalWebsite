@@ -1,0 +1,93 @@
+﻿@page
+@model ServiceHost.Pages.ContactMeModel
+
+    @{
+        ViewData["Title"] = "ارتباط با من";
+    }
+
+    <div id="lonon-main">
+
+        <div class="lonon-contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="heading-meta style-1">ارتباط با من</span>
+                        <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">با بنده در ارتباط باشید</h2>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInLeft">
+                        <h3 class="lonon-about-heading">اطلاعات تماس</h3>
+                        <p><b>تلفن :&nbsp;</b> @Model.BasicInfo.Mobile</p>
+                        <p>
+                            <b>ایمیل:</b> <a href="#">
+                                @Model.BasicInfo.Email
+                            </a>
+                        </p>
+                        <p><b>اینستاگرام:</b> @Model.BasicInfo.Instagram</p>
+                        <p><b>آدرس:</b> @Model.BasicInfo.Address</p>
+                    </div>
+
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                        <h3 class="lonon-about-heading">چطور میتونم کمک کنم ؟</h3>
+                        <p>
+                            برای مشاوره در زمینه کسب و کار آنلاین و سفارش پروژه می توانید از طریق فرم زیر به بنده پیام خود را ارسال نمایید.
+                        </p>
+                        <form method="post" class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <input type="text" name="fullname" class="form-control" placeholder="نام و نام خانوادگی" required="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text"  name="email" class="form-control" placeholder="ایمیل" required="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" name="mobile" class="form-control" placeholder="موبایل" required="">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="پیام ارزشمند خودتان را بنویسید" required=""></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-contact" value="ارسال پیام">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="lonon-footer2">
+            <div class="lonon-narrow-content">
+                <div class="row">
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                        <p class="lonon-lead text-justify">
+                            استفاده از مطالب این سایت فقط برای مقاصد غیرتجاری و با ذکر منبع
+                            بلامانع است. کلیه حقوق این سایت متعلق به نوید قوامی می‌باشد.
+                        </p>
+                    </div>
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                        <h2 class="text-center">
+                        </h2>
+                    </div>
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                        <a asp-page="/MyResume">
+                            <h2 class="text-center">
+                                درباره <strong class="text-warning">من</strong> بیشتر بدانید؟!
+                            </h2>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

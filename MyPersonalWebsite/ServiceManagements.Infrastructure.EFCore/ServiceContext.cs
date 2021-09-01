@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ServiceManagement.Domain.ClientsOpinion;
+using ServiceManagement.Domain.ContactMe;
 using ServiceManagement.Domain.Customers;
 using ServiceManagement.Domain.Plans;
 using ServiceManagement.Domain.Services;
@@ -13,6 +14,7 @@ namespace ServiceManagements.Infrastructure.EFCore
         public DbSet<Plans> Plans { get; set; }
         public DbSet<Customers> Customers { get; set; }
         public DbSet<ClientsOpinion> ClientsOpinions { get; set; }
+        public DbSet<ContactMe> ContactMe { get; set; }
 
 
         public ServiceContext(DbContextOptions<ServiceContext> options) : base(options)
