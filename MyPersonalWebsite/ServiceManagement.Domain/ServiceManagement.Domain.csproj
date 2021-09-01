@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ClientsOpinion\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\0_Framework\0_Framework.csproj" />
     <ProjectReference Include="..\ServiceManagement.Application.Contract\ServiceManagement.Application.Contract.csproj" />
   </ItemGroup>

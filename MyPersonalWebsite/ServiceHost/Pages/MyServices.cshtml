@@ -139,22 +139,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="lonon-quote-card">
-                        <img src="~/SiteTheme/assets/images/quote.png" alt="" class="lonon-quote-2">
-                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
-                        <h5><strong>احمد شیرازی</strong></h5>
-                        <p class="occupation">مدیر پروژه</p>
+                @foreach (var item in Model.ClientsOpinion)
+                {
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="lonon-quote-card">
+                            <img src="~/SiteTheme/assets/images/quote.png" alt="@item.ClientName" title="@item.ClientName" class="lonon-quote-2">
+                            <p class="text-justify">
+                                @item.Description
+                            </p>
+                            <h5><strong>@item.ClientName</strong></h5>
+                            <p class="occupation">@item.ClientJob</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="lonon-quote-card">
-                        <img src="~/SiteTheme/assets/images/quote.png" alt="quote" class="lonon-quote-2">
-                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
-                        <h5>سمیرا حسینی</h5>
-                        <p class="occupation">برنامه نویس</p>
-                    </div>
-                </div>
+                }
             </div>
         </div>
     </div>
