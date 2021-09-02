@@ -1,0 +1,69 @@
+﻿@page
+@model ServiceHost.Pages.AccountModel
+
+
+@{
+    ViewData["Title"] = "ورود به سیستم";
+}
+
+<div id="lonon-main">
+
+    <div class="lonon-contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading-meta style-1">ورود به سیستم</span>
+                    <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">ورود به سیستم مدیریت</h2>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                    <h3 class="lonon-about-heading">لطفا جهت ورود ، نام کاربری و رمز عبور خود را وارد نمایید</h3>
+                    <form method="post" class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" name="username" class="form-control" placeholder="نام کاربری" required="">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="password" name="password" class="form-control" placeholder="رمز عبور" required="">
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-contact" value="ورود">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lonon-footer2">
+        <div class="lonon-narrow-content">
+            <div class="row">
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <p class="lonon-lead text-justify">
+                        استفاده از مطالب این سایت فقط برای مقاصد غیرتجاری و با ذکر منبع
+                        بلامانع است. کلیه حقوق این سایت متعلق به نوید قوامی می‌باشد.
+                    </p>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <h2 class="text-center">
+                    </h2>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <a asp-page="/MyResume">
+                        <h2 class="text-center">
+                            درباره <strong class="text-warning">من</strong> بیشتر بدانید؟!
+                        </h2>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

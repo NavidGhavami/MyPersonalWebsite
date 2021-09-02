@@ -1,0 +1,33 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Accounts.Roles.EditModel
+
+
+<div class="content">
+    <div class="row" id="ProductCategoriesDiv">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">ویرایش نقش @Model.Command.Name</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <form method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label asp-for="Command.Name" class="control-label">نام نقش</label>
+                                        <input type="text" class="form-control" asp-for="Command.Name">
+                                        <span asp-validation-for="Command.Name" class="error"></span>
+                                    </div>
+                                    <input type="hidden" asp-for="Command.Id" value="@Model.Command.Id" />
+                                </div>
+                            </div>
+                            <a asp-page="./Index" class="btn btn-primary">بازگشت</a>
+                            <button type="submit" class="btn btn-warning waves-effect waves-light">ویرایش نقش</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

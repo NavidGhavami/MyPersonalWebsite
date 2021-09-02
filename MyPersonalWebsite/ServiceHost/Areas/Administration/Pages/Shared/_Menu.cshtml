@@ -1,6 +1,6 @@
 ﻿@using _0_Framework.Application
 @using _0_Framework.Infrastructure
-@*@inject IAuthHelper AuthHelper*@
+@inject IAuthHelper _authHelper
 @{
 }
 
@@ -8,11 +8,11 @@
     <div class="sidebar-inner slimscrollleft">
         <div class="user-details">
             <div class="pull-right">
-                <img src="~/Pictures/@*@AuthHelper.CurrentAccountInfo().Picture*@" alt="" class="thumb-md img-circle">
+                <img src="~/Pictures/@_authHelper.CurrentAccountInfo().Picture" alt="" class="thumb-md img-circle">
             </div>
             <div class="user-info">
                 <div class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">@*@AuthHelper.CurrentAccountInfo().FullName*@<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">@_authHelper.CurrentAccountInfo().FullName<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> پروفایل<div class="ripple-wrapper"></div></a></li>
                         <li><a href="javascript:void(0)"><i class="md md-settings"></i> تنظیمات</a></li>
@@ -20,7 +20,7 @@
                     </ul>
                 </div>
 
-                <p class="text-muted m-0">@*@AuthHelper.CurrentAccountInfo().Role*@</p>
+                <p class="text-muted m-0">@_authHelper.CurrentAccountInfo().Role</p>
             </div>
         </div>
         <!--- Divider -->
@@ -29,53 +29,70 @@
                 <li>
                     <a asp-page="/Index" class="waves-effect active"><i class="md md-home"></i><span> داشبورد </span></a>
                 </li>
+                @if (_authHelper.CurrentAccountRole() == Roles.Administrator)
+                {
+                    <li class="has_sub">
+                        <a class="waves-effect"><i class="md md-info"></i><span> مدیریت اطلاعات شخصی </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a asp-page="/PersonalInformation/BasicInfo/Index">اطلاعات پایه</a></li>
+                            <li><a asp-page="/PersonalInformation/JobExperience/Index">تجربه های شغلی</a></li>
+                            <li><a asp-page="/PersonalInformation/EducationExperience/Index">سوابق تحصیلی</a></li>
+                            <li><a asp-page="/PersonalInformation/Skills/Index">توانایی و مهارت ها</a></li>
+                        </ul>
+                    </li>
+                    <li class="has_sub">
+                        <a class="waves-effect"><i class="md md-store"></i><span> مدیریت پروژه ها </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a asp-page="/Project/ProjectCategory/Index">گروه پروژه</a></li>
+                            <li><a asp-page="/Project/Projects/Index">پروژه</a></li>
+                        </ul>
+                    </li>
+                    <li class="has_sub">
+                        <a class="waves-effect"><i class="md md-attach-money"></i><span> مدیریت خدمات </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a asp-page="/Services/Service/Index">سرویس ها</a></li>
+                            <li><a asp-page="/Services/Plans/Index">تعرفه و قیمت ها</a></li>
+                            <li><a asp-page="/Services/Customers/Index">مشتریان</a></li>
+                            <li><a asp-page="/Services/Clients/Index">نظرات مشتریان</a></li>
+                        </ul>
+                    </li>
 
-                <li class="has_sub">
-                    <a class="waves-effect"><i class="md md-info"></i><span> مدیریت اطلاعات شخصی </span><span class="pull-right"><i class="md md-add"></i></span></a>
-                    <ul class="list-unstyled">
-                        <li><a asp-page="/PersonalInformation/BasicInfo/Index">اطلاعات پایه</a></li>
-                        <li><a asp-page="/PersonalInformation/JobExperience/Index">تجربه های شغلی</a></li>
-                        <li><a asp-page="/PersonalInformation/EducationExperience/Index">سوابق تحصیلی</a></li>
-                        <li><a asp-page="/PersonalInformation/Skills/Index">توانایی و مهارت ها</a></li>
-                    </ul>
-                </li>
-                <li class="has_sub">
-                    <a class="waves-effect"><i class="md md-store"></i><span> مدیریت پروژه ها </span><span class="pull-right"><i class="md md-add"></i></span></a>
-                    <ul class="list-unstyled">
-                        <li><a asp-page="/Project/ProjectCategory/Index">گروه پروژه</a></li>
-                        <li><a asp-page="/Project/Projects/Index">پروژه</a></li>
-                    </ul>
-                </li>
-                <li class="has_sub">
-                    <a class="waves-effect"><i class="md md-attach-money"></i><span> مدیریت خدمات </span><span class="pull-right"><i class="md md-add"></i></span></a>
-                    <ul class="list-unstyled">
-                        <li><a asp-page="/Services/Service/Index">سرویس ها</a></li>
-                        <li><a asp-page="/Services/Plans/Index">تعرفه و قیمت ها</a></li>
-                        <li><a asp-page="/Services/Customers/Index">مشتریان</a></li>
-                        <li><a asp-page="/Services/Clients/Index">نظرات مشتریان</a></li>
-                    </ul>
-                </li>
+                    <li class="has_sub">
+                        <a class="waves-effect"><i class="md md-photo-camera"></i><span> مدیریت مقالات </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a asp-page="/Blog/ArticleCategory/Index">گروه مقاله</a></li>
+                            <li><a asp-page="/Blog/Article/Index">مقالات</a></li>
+                        </ul>
+                    </li>
 
-                <li class="has_sub">
-                    <a class="waves-effect"><i class="md md-photo-camera"></i><span> مدیریت مقالات </span><span class="pull-right"><i class="md md-add"></i></span></a>
-                    <ul class="list-unstyled">
-                        <li><a asp-page="/Blog/ArticleCategory/Index">گروه مقاله</a></li>
-                        <li><a asp-page="/Blog/Article/Index">مقالات</a></li>
-                    </ul>
-                </li>
-
-                <li class="has_sub">
-                    <a class="waves-effect"><i class="md md-people"></i><span> مدیریت کاربران </span><span class="pull-right"><i class="md md-add"></i></span></a>
-                    <ul class="list-unstyled">
-                        <li><a asp-page="/Accounts/Users/Index">کاربران</a></li>
-                        <li><a asp-page="/Accounts/Roles/Index">نقش ها</a></li>
-                    </ul>
-                </li>
+                    <li class="has_sub">
+                        <a class="waves-effect"><i class="md md-people"></i><span> مدیریت کاربران </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a asp-page="/Accounts/Users/Index">کاربران</a></li>
+                            <li><a asp-page="/Accounts/Roles/Index">نقش ها</a></li>
+                        </ul>
+                    </li>
 
 
-                <li>
-                    <a asp-page="/Services/ContactMeMessages/Index">پیام های ارسالی</a>
-                </li>
+                    <li>
+                        <a asp-page="/Services/ContactMeMessages/Index" class="waves-effect"><i class="md-message"></i><span>پیام های ارسالی</span></a>
+                    </li>
+
+                }
+
+
+                @if (_authHelper.CurrentAccountRole() == Roles.ContentUploader)
+                {
+                    <li class="has_sub">
+                        <a class="waves-effect"><i class="md md-photo-camera"></i><span> مدیریت مقالات </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a asp-page="/Blog/ArticleCategory/Index">گروه مقاله</a></li>
+                            <li><a asp-page="/Blog/Article/Index">مقالات</a></li>
+                        </ul>
+                    </li>
+
+                }
+
 
                 <li>
                     <a asp-page="/Account" asp-page-handler="Logout" class="waves-effect"><i class="md-settings-power"></i><span>خروج</span></a>

@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01_Query\01_Query.csproj" />
+    <ProjectReference Include="..\AccountManagement.Configuration\AccountManagement.Configuration.csproj" />
     <ProjectReference Include="..\BasicInfoManagement.Configuration\PersonalInfoManagement.Configuration.csproj" />
     <ProjectReference Include="..\BlogManagement.Configuration\BlogManagement.Configuration.csproj" />
     <ProjectReference Include="..\ProjectManagement.Configuration\ProjectManagement.Configuration.csproj" />
