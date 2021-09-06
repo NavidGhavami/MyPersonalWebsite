@@ -1,8 +1,15 @@
-﻿namespace ServiceManagement.Application.Contract.Plans
+﻿using System.ComponentModel.DataAnnotations;
+using _0_Framework.Application;
+
+namespace ServiceManagement.Application.Contract.Plans
 {
     public class CreatePlans
     {
+
+        [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PlanName { get; set; }
+
+        [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PlanPrice { get; set; }
         public string PlanDescription1 { get; set; }
         public string PlanDescription2 { get; set; }
