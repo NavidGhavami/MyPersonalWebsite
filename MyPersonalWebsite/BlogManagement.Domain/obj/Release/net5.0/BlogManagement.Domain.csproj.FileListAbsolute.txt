@@ -1,0 +1,17 @@
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\bin\Release\net5.0\BlogManagement.Domain.deps.json
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\bin\Release\net5.0\BlogManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\bin\Release\net5.0\ref\BlogManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\bin\Release\net5.0\BlogManagement.Domain.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\bin\Release\net5.0\0_Framework.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\bin\Release\net5.0\BlogManegement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\bin\Release\net5.0\0_Framework.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\bin\Release\net5.0\BlogManegement.Application.Contract.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\obj\Release\net5.0\BlogManagement.Domain.csproj.AssemblyReference.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\obj\Release\net5.0\BlogManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\obj\Release\net5.0\BlogManagement.Domain.AssemblyInfoInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\obj\Release\net5.0\BlogManagement.Domain.AssemblyInfo.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\obj\Release\net5.0\BlogManagement.Domain.csproj.CoreCompileInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\obj\Release\net5.0\BlogManagement.Domain.csproj.CopyComplete
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\obj\Release\net5.0\BlogManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\obj\Release\net5.0\ref\BlogManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\BlogManagement.Domain\obj\Release\net5.0\BlogManagement.Domain.pdb

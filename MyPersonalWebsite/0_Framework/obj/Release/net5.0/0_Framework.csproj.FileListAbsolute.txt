@@ -1,0 +1,12 @@
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\bin\Release\net5.0\0_Framework.deps.json
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\bin\Release\net5.0\0_Framework.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\bin\Release\net5.0\ref\0_Framework.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\bin\Release\net5.0\0_Framework.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\obj\Release\net5.0\0_Framework.csproj.AssemblyReference.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\obj\Release\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\obj\Release\net5.0\0_Framework.AssemblyInfoInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\obj\Release\net5.0\0_Framework.AssemblyInfo.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\obj\Release\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\obj\Release\net5.0\0_Framework.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\obj\Release\net5.0\ref\0_Framework.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\0_Framework\obj\Release\net5.0\0_Framework.pdb

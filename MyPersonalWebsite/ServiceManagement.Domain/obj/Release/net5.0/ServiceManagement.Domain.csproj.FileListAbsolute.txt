@@ -1,0 +1,17 @@
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\bin\Release\net5.0\ServiceManagement.Domain.deps.json
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\bin\Release\net5.0\ServiceManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\bin\Release\net5.0\ref\ServiceManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\bin\Release\net5.0\ServiceManagement.Domain.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\bin\Release\net5.0\0_Framework.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\bin\Release\net5.0\ServiceManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\bin\Release\net5.0\0_Framework.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\bin\Release\net5.0\ServiceManagement.Application.Contract.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\obj\Release\net5.0\ServiceManagement.Domain.csproj.AssemblyReference.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\obj\Release\net5.0\ServiceManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\obj\Release\net5.0\ServiceManagement.Domain.AssemblyInfoInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\obj\Release\net5.0\ServiceManagement.Domain.AssemblyInfo.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\obj\Release\net5.0\ServiceManagement.Domain.csproj.CoreCompileInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\obj\Release\net5.0\ServiceManagement.Domain.csproj.CopyComplete
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\obj\Release\net5.0\ServiceManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\obj\Release\net5.0\ref\ServiceManagement.Domain.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\ServiceManagement.Domain\obj\Release\net5.0\ServiceManagement.Domain.pdb

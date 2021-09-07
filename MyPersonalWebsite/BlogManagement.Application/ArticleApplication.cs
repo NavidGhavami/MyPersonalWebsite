@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using _0_Framework.Application;
 using BlogManagement.Domain.Article;
 using BlogManagement.Domain.ArticleCategory;
@@ -60,9 +61,10 @@ namespace BlogManagement.Application
             //}
 
             var slug = command.Slug.Slugify();
+            var title = command.Title.Substring(0, Math.Min(command.Title.Length, 25));
             var categorySlug = _articleCategoryRepository.GetSlugBy(command.CategoryId);
             var publishDate = command.PublishDate.ToGeorgianDateTime();
-            var path = $"{"Blog"}/{article.ArticleCategory.Slug}/{slug}";
+            var path = $"{"Blog"}/{article.ArticleCategory.Slug}/{title}";
             var fileName = _fileUploader.Upload(command.Picture, path);
 
             article.Edit(command.Title, fileName, command.PictureAlt, command.PictureTitle,

@@ -6,6 +6,7 @@
     <WebStackScaffolding_DependencyDialogWidth>650</WebStackScaffolding_DependencyDialogWidth>
     <ActiveDebugProfile>ServiceHost</ActiveDebugProfile>
     <ShowAllFiles>false</ShowAllFiles>
+    <NameOfLastUsedPublishProfile>E:\Programming\Codes and projects\My Personal Website %28Navid Ghavami%29\MyPersonalWebsite\ServiceHost\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

@@ -1,0 +1,15 @@
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\bin\Release\net5.0\PersonalInfoManagement.Application.Contract.deps.json
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\bin\Release\net5.0\PersonalInfoManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\bin\Release\net5.0\ref\PersonalInfoManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\bin\Release\net5.0\PersonalInfoManagement.Application.Contract.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\bin\Release\net5.0\0_Framework.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\bin\Release\net5.0\0_Framework.pdb
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\obj\Release\net5.0\PersonalInfoManagement.Application.Contract.csproj.AssemblyReference.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\obj\Release\net5.0\PersonalInfoManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\obj\Release\net5.0\PersonalInfoManagement.Application.Contract.AssemblyInfoInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\obj\Release\net5.0\PersonalInfoManagement.Application.Contract.AssemblyInfo.cs
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\obj\Release\net5.0\PersonalInfoManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\obj\Release\net5.0\PersonalInfoManagement.Application.Contract.csproj.CopyComplete
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\obj\Release\net5.0\PersonalInfoManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\obj\Release\net5.0\ref\PersonalInfoManagement.Application.Contract.dll
+E:\Programming\Codes and projects\My Personal Website (Navid Ghavami)\MyPersonalWebsite\PersonalInfoManagement.Application.Contract\obj\Release\net5.0\PersonalInfoManagement.Application.Contract.pdb
