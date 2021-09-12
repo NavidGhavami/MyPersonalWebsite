@@ -51,46 +51,76 @@
                             <h4><strong>@item.PlanName</strong></h4>
                             <h1 class="bold price-price"><sup></sup> <span class="text-danger">@item.PlanPrice</span></h1>
                             <div class="price-features">
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription1
-                                </p>
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription2
-                                </p>
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription3
-                                </p>
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription4
-                                </p>
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription5
-                                </p>
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription6
-                                </p>
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription7
-                                </p>
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription8
-                                </p>
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription9
-                                </p>
-                                <p class="text-justify">
-                                    <strong class="text-danger">*</strong>
-                                    @item.PlanDescription10
-                                </p>
+                                @if (item.PlanDescription1 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription1
+                                    </p>
+                                }
+                                @if (item.PlanDescription2 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription2
+                                    </p>
+                                }
+                                @if (item.PlanDescription3 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription3
+                                    </p>
+                                }
+                                @if (item.PlanDescription4 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription4
+                                    </p>
+                                }
+                                @if (item.PlanDescription5 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription5
+                                    </p>
+                                }
+                                @if (item.PlanDescription6 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription6
+                                    </p>
+                                }
+                                @if (item.PlanDescription7 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription7
+                                    </p>
+                                }
+                                @if (item.PlanDescription8 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription8
+                                    </p>
+                                }
+                                @if (item.PlanDescription9 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription9
+                                    </p>
+                                }
+                                @if (item.PlanDescription10 != null)
+                                {
+                                    <p class="text-justify">
+                                        <strong class="text-danger">*</strong>
+                                        @item.PlanDescription10
+                                    </p>
+                                }
                             </div>
                             <br />
                             <a class="btn btn-success btn-rounded" asp-page="/ContactMe">
